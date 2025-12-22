@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+*.pem
+
+# Project specific
+logs/
+output/
+
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Temporary files
+*.log
+*.tmp
+tmp/
+

@@ -1,0 +1,56 @@
+{
+  "columns": {
+    "Nr.": {
+      "width": 4,
+      "font_size": 13,
+      "bold": false
+    },
+    "Nume Client": {
+      "width": 24,
+      "font_size": 13,
+      "bold": false
+    },
+    "Cantitate": {
+      "width": 10,
+      "font_size": 13,
+      "bold": false
+    },
+    "Nume Produs": {
+      "width": 46,
+      "font_size": 13,
+      "bold": false
+    },
+    "Culoare": {
+      "width": 10,
+      "font_size": 13,
+      "bold": false
+    },
+    "Cod Produs": {
+      "width": 12,
+      "font_size": 13,
+      "bold": false
+    },
+    "AWB": {
+      "width": 15,
+      "font_size": 13,
+      "bold": false
+    }
+  },
+  "header": {
+    "font_size": 14,
+    "bold": true,
+    "background_color": "4472C4",
+    "font_color": "FFFFFF"
+  },
+  "separator": {
+    "font_size": 16,
+    "bold": true,
+    "font_color": "FF0000",
+    "background_color": "FFE699"
+  },
+  "formatting": {
+    "add_empty_row_between_products": true,
+    "add_borders": true
+  }
+}
+
