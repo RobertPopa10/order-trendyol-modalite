@@ -10,17 +10,6 @@
     "category": "Lampă de birou",
     "mdlt_code": "MDLT-0001"
   },
-  "1462880979": {
-    "item_number": 1462880979,
-    "content_id": 1057507442,
-    "barcode": null,
-    "name_romanian": "Răzătoare multifuncțională pentru legume și fructe , accesorii interschimbabile, gri/verde, 14 buc.",
-    "name_english": "Multifunctional grater for vegetables and fruits, interchangeable accessories, gray/green, 14 pcs.",
-    "brand": "MODALITE LTD",
-    "price": 83.81,
-    "category": "Râșniță",
-    "mdlt_code": "MDLT-0011"
-  },
   "1413030633": {
     "item_number": 1413030633,
     "content_id": 1018062920,
@@ -32,6 +21,17 @@
     "category": "Friteuze cu aer cald și friteuze deep fryer",
     "mdlt_code": "MDLT-0002"
   },
+  "1411234975": {
+    "item_number": 1411234975,
+    "content_id": 1016310258,
+    "barcode": null,
+    "name_romanian": "Uscător de rufe vertical, mobil și pliabil pentru spații mici, suport pentru umerașe, înălțime 173 cm",
+    "name_english": "Vertical Clothes Dryer Mobile and Foldable for Small Spaces, Hanger Support, Height 173cm",
+    "brand": "Palmonix",
+    "price": 110.4,
+    "category": "Raft de rufe",
+    "mdlt_code": null
+  },
   "1319620553": {
     "item_number": 1319620553,
     "content_id": 932893463,
@@ -39,9 +39,20 @@
     "name_romanian": "Razatoare Multifunctionala Pentru Legume Si Fructe , Lame Interschimbabile Pentru Feliere",
     "name_english": "Multifunctional Grater For Vegetables And Fruits, Interchangeable Blades For Slicing",
     "brand": "NEXTLY",
-    "price": 81.94,
+    "price": 65.26,
     "category": "Manuel Chopper",
     "mdlt_code": "MDLT-0003"
+  },
+  "1401271785": {
+    "item_number": 1401271785,
+    "content_id": 991396767,
+    "barcode": null,
+    "name_romanian": "Uscător de rufe Ronyes, înălțime 170 cm, albastru",
+    "name_english": "Clothes Dryer Ronyes, Height 170cm, Blue",
+    "brand": "stuffix",
+    "price": 108,
+    "category": "Raft de rufe",
+    "mdlt_code": null
   },
   "1422571660": {
     "item_number": 1422571660,
@@ -65,6 +76,17 @@
     "category": "Organizator de bucatarie",
     "mdlt_code": null
   },
+  "1321514668": {
+    "item_number": 1321514668,
+    "content_id": 934170157,
+    "barcode": null,
+    "name_romanian": "Uscător de rufe cu 3 niveluri, cu roți, rafturi pliabile, alb/albastru, 75 x 76 x 170 cm",
+    "name_english": "Clothes dryer with 3 levels, with wheels, foldable shelves, White/Blue, 75 x 76 x 170 cm",
+    "brand": "Herum",
+    "price": 110,
+    "category": "Raft de rufe",
+    "mdlt_code": null
+  },
   "1450147006": {
     "item_number": 1450147006,
     "content_id": 1047910111,
@@ -75,39 +97,6 @@
     "price": 108,
     "category": "Raft de rufe",
     "mdlt_code": null
-  },
-  "1411234975": {
-    "item_number": 1411234975,
-    "content_id": 1016310258,
-    "barcode": null,
-    "name_romanian": "Uscător de rufe vertical, mobil și pliabil pentru spații mici, suport pentru umerașe, înălțime 173 cm",
-    "name_english": "Vertical Clothes Dryer Mobile and Foldable for Small Spaces, Hanger Support, Height 173cm",
-    "brand": "Palmonix",
-    "price": 110.4,
-    "category": "Raft de rufe",
-    "mdlt_code": null
-  },
-  "1401271785": {
-    "item_number": 1401271785,
-    "content_id": 991396767,
-    "barcode": null,
-    "name_romanian": "Uscător de rufe Ronyes, înălțime 170 cm, albastru",
-    "name_english": "Clothes Dryer Ronyes, Height 170cm, Blue",
-    "brand": "stuffix",
-    "price": 108,
-    "category": "Raft de rufe",
-    "mdlt_code": null
-  },
-  "1319682949": {
-    "item_number": 1319682949,
-    "content_id": 932932079,
-    "barcode": null,
-    "name_romanian": "Aparat De Masaj Pentru Gat, Spate, Umeri, Picioare, Talpi, Talie, Masaj Shiatsu 3d",
-    "name_english": "Massager for Neck, Back, Shoulders, Legs, Soles, Waist, Shiatsu Massage 3d",
-    "brand": "NEXTLY",
-    "price": 134.9,
-    "category": "Instrumentul de masaj",
-    "mdlt_code": "MDLT-0006"
   },
   "1325232951": {
     "item_number": 1325232951,
@@ -120,16 +109,16 @@
     "category": "Raft de vase",
     "mdlt_code": "MDLT-0008"
   },
-  "1321514668": {
-    "item_number": 1321514668,
-    "content_id": 934170157,
+  "1319682949": {
+    "item_number": 1319682949,
+    "content_id": 932932079,
     "barcode": null,
-    "name_romanian": "Uscător de rufe cu 3 niveluri, cu roți, rafturi pliabile, alb/albastru, 75 x 76 x 170 cm",
-    "name_english": "Clothes dryer with 3 levels, with wheels, foldable shelves, White/Blue, 75 x 76 x 170 cm",
-    "brand": "Herum",
-    "price": 110,
-    "category": "Raft de rufe",
-    "mdlt_code": null
+    "name_romanian": "Aparat De Masaj Pentru Gat, Spate, Umeri, Picioare, Talpi, Talie, Masaj Shiatsu 3d",
+    "name_english": "Massager for Neck, Back, Shoulders, Legs, Soles, Waist, Shiatsu Massage 3d",
+    "brand": "NEXTLY",
+    "price": 134.9,
+    "category": "Instrumentul de masaj",
+    "mdlt_code": "MDLT-0006"
   },
   "1325668647": {
     "item_number": 1325668647,
@@ -138,20 +127,20 @@
     "name_romanian": "Răzătoare multifuncțională 15 în 1, 20 de bucăți, 13 tipuri de felii, fructe, legume, verde/gri",
     "name_english": "15 in 1 Multifunctional Grater, 20 Pieces, 13 Types of Slices, Fruits, Vegetables, Green/Gray",
     "brand": "MACVI",
-    "price": 149,
+    "price": 66,
     "category": "Curățătoare legume/fructe",
     "mdlt_code": "MDLT-0017"
   },
-  "1462808150": {
-    "item_number": 1462808150,
-    "content_id": 1057453906,
+  "1407744813": {
+    "item_number": 1407744813,
+    "content_id": 996201817,
     "barcode": null,
-    "name_romanian": "Suport dublu metalic pentru haine Negru, 110 x 57 x 150 cm, capacitate 35 kg",
-    "name_english": "Double metal clothes rack Black, 110 x 57 x 150 cm, capacity 35 kg",
-    "brand": "MODALITE",
-    "price": 149.9,
-    "category": "Raft de haine",
-    "mdlt_code": "MDLT-0015"
+    "name_romanian": "Uscator de rufe Tim, Rezistență 50 kg,Vertical,Pliabil si Mobil,Compact,cu 3 Niveluri de Uscare,alb",
+    "name_english": "Tim Clothes Dryer, 50 kg Capacity, Vertical, Foldable and Mobile, Compact, with 3 Drying Levels, White",
+    "brand": "Tim",
+    "price": 127.25,
+    "category": "Raft de rufe",
+    "mdlt_code": null
   },
   "1337080194": {
     "item_number": 1337080194,
@@ -164,16 +153,60 @@
     "category": "Raft de vase",
     "mdlt_code": "MDLT-0013"
   },
-  "1388810209": {
-    "item_number": 1388810209,
-    "content_id": 982497176,
+  "1401920590": {
+    "item_number": 1401920590,
+    "content_id": 991794642,
     "barcode": null,
-    "name_romanian": "Irigator bucal si oral profesional PPS Pulse® Neo™, 140 PSI, Functie masaj, rotatie 360°, portab",
-    "name_english": "Professional oral irrigator PPS Pulse® Neo™, 140 PSI, Massage function, 360° rotation, portable",
-    "brand": "NEO",
-    "price": 198,
-    "category": "Îngrijire orală",
-    "mdlt_code": "MDLT-0014"
+    "name_romanian": "Uscător de rufe pliabil vertical, ideal pentru spații mici, cu roți",
+    "name_english": "Clothes Dryer Vertical Foldable, Ideal for Small Spaces, Wheels",
+    "brand": "OEM",
+    "price": 130.79,
+    "category": "Raft de rufe",
+    "mdlt_code": null
+  },
+  "1374108648": {
+    "item_number": 1374108648,
+    "content_id": 971854723,
+    "barcode": null,
+    "name_romanian": "Uscător vertical și pliabil de rufe, mobil, cu suport pentru umerașe, înălțime 170 cm",
+    "name_english": "Vertical Mobile and Foldable Clothes Dryer with Hanger Support Height 170 cm",
+    "brand": "Promagg",
+    "price": 99.71,
+    "category": "Raft de rufe",
+    "mdlt_code": null
+  },
+  "1319610769": {
+    "item_number": 1319610769,
+    "content_id": 932888502,
+    "barcode": null,
+    "name_romanian": "Uscator Vertical Pentru Rufe Si Incaltaminte , 3 Niveluri, Suport Umerase, Pliabil, Portabil",
+    "name_english": "Vertical Clothes And Shoe Dryer, 3 Levels, Hanger Holder, Foldable, Portable",
+    "brand": "NEXTLY",
+    "price": 130.8,
+    "category": "Raft de rufe",
+    "mdlt_code": null
+  },
+  "1453532576": {
+    "item_number": 1453532576,
+    "content_id": 1050640304,
+    "barcode": null,
+    "name_romanian": "Uscător de rufe electric pliabil portabil, 10 kg, igienizare UV",
+    "name_english": "portable Foldable Electric Clothes Dryer, 10 kg, UV Sanitization",
+    "brand": "SokShop",
+    "price": 149,
+    "category": "Raft de rufe",
+    "mdlt_code": null
+  },
+  "1485187027": {
+    "item_number": 1485187027,
+    "content_id": 1074990025,
+    "barcode": null,
+    "name_romanian": "Suport dublu de umerase pentru haine, din metal 150 x 110 x 54 cm",
+    "name_english": "Double metal clothes hanger rack 150 x 110 x 54 cm",
+    "brand": "Sanlux",
+    "price": 299,
+    "category": "Organizator de baie",
+    "mdlt_code": null
   },
   "1401910088": {
     "item_number": 1401910088,
@@ -186,16 +219,27 @@
     "category": "Tigăi",
     "mdlt_code": "MDLT-0020"
   },
-  "1453532576": {
-    "item_number": 1453532576,
-    "content_id": 1050640304,
+  "1388810209": {
+    "item_number": 1388810209,
+    "content_id": 982497176,
     "barcode": null,
-    "name_romanian": "Uscător de rufe electric pliabil portabil, 10 kg, igienizare UV",
-    "name_english": "portable Foldable Electric Clothes Dryer, 10 kg, UV Sanitization",
-    "brand": "SokShop",
+    "name_romanian": "Irigator bucal si oral profesional PPS Pulse® Neo™, 140 PSI, Functie masaj, rotatie 360°, portab",
+    "name_english": "Professional oral irrigator PPS Pulse® Neo™, 140 PSI, Massage function, 360° rotation, portable",
+    "brand": "NEO",
+    "price": 198,
+    "category": "Îngrijire orală",
+    "mdlt_code": "MDLT-0014"
+  },
+  "1316225789": {
+    "item_number": 1316225789,
+    "content_id": 930550254,
+    "barcode": null,
+    "name_romanian": "Spalator de geamuri cu maner telescopic extensibil, Herum, 2 lavete incluse, 100 - 170 cm",
+    "name_english": "Window washer with extendable telescopic handle, Herum, 2 cloths included, 100 - 170 cm",
+    "brand": "Herum",
     "price": 149,
-    "category": "Raft de rufe",
-    "mdlt_code": null
+    "category": "Curățător de ferestre",
+    "mdlt_code": "MDLT-0012"
   },
   "1388177542": {
     "item_number": 1388177542,
@@ -215,20 +259,20 @@
     "name_romanian": "Razatoare de legume cu accesorii, gri/verde, 31 x 10 x 11 cm",
     "name_english": "Vegetable Grater with Accessories, Grey/Green, 31 x 10 x 11 cm",
     "brand": "Herum",
-    "price": 149,
+    "price": 69,
     "category": "Râșniță",
     "mdlt_code": "MDLT-0009"
   },
-  "1316225789": {
-    "item_number": 1316225789,
-    "content_id": 930550254,
+  "1462808150": {
+    "item_number": 1462808150,
+    "content_id": 1057453906,
     "barcode": null,
-    "name_romanian": "Spalator de geamuri cu maner telescopic extensibil, Herum, 2 lavete incluse, 100 - 170 cm",
-    "name_english": "Window washer with extendable telescopic handle, Herum, 2 cloths included, 100 - 170 cm",
-    "brand": "Herum",
-    "price": 149,
-    "category": "Curățător de ferestre",
-    "mdlt_code": "MDLT-0012"
+    "name_romanian": "Suport dublu metalic pentru haine Negru, 110 x 57 x 150 cm, capacitate 35 kg",
+    "name_english": "Double metal clothes rack Black, 110 x 57 x 150 cm, capacity 35 kg",
+    "brand": "MODALITE",
+    "price": 149.9,
+    "category": "Raft de haine",
+    "mdlt_code": "MDLT-0015"
   },
   "1320055047": {
     "item_number": 1320055047,
@@ -237,9 +281,31 @@
     "name_romanian": "Set Friteuza Cu Aer Cald , Gatire Fara Ulei, Air Fryer",
     "name_english": "Hot Air Fryer Set, Cooking Without Oil, Air Fryer",
     "brand": "NEXTLY",
-    "price": 198,
+    "price": 171,
     "category": "Friteuze cu aer cald și friteuze deep fryer",
     "mdlt_code": "MDLT-0026"
+  },
+  "1319608822": {
+    "item_number": 1319608822,
+    "content_id": 932887423,
+    "barcode": null,
+    "name_romanian": "Friteuza Cu Aer Cald , Gatire Fara Ulei, Air Fryer Capacitate 4.5 Litri, 1400w, 8 Programe",
+    "name_english": "Hot Air Fryer, Cooking Without Oil, Air Fryer Capacity 4.5 Liters, 1400w, 8 Programs",
+    "brand": "NEXTLY",
+    "price": 159,
+    "category": "Friteuze cu aer cald și friteuze deep fryer",
+    "mdlt_code": null
+  },
+  "1481486634": {
+    "item_number": 1481486634,
+    "content_id": 1072386739,
+    "barcode": null,
+    "name_romanian": "Uscator de haine pliabil de uz casnic, cu sac inclus, portabil, capacitate 10 KG, uscare rapida la t",
+    "name_english": "Foldable clothes dryer for household use, with bag included, portable, 10 KG capacity, fast drying at t",
+    "brand": "Sanlux",
+    "price": 238.8,
+    "category": "Raft de rufe",
+    "mdlt_code": null
   },
   "1464708071": {
     "item_number": 1464708071,
@@ -252,16 +318,27 @@
     "category": "Scrumieră",
     "mdlt_code": "MDLT-0023"
   },
-  "1325874329": {
-    "item_number": 1325874329,
-    "content_id": 937072698,
+  "1411147781": {
+    "item_number": 1411147781,
+    "content_id": 1016042597,
     "barcode": null,
-    "name_romanian": "Set 3 Tavi pentru Prajituri Macvi® din metal diverse forme negre",
-    "name_english": "Set of 3 Macvi® Metal Cake Trays, various shapes, black",
-    "brand": "MACVI",
-    "price": 149,
-    "category": "Cuptor și mucegai pentru prăjituri",
-    "mdlt_code": "MDLT-0016"
+    "name_romanian": "Friteuză pătrată multifuncțională din cupru pentru cuptor - Migas",
+    "name_english": "Multifunctional Square Pan Copper Fryer for Oven - Migas",
+    "brand": "stuffix",
+    "price": 198,
+    "category": "Tigăi",
+    "mdlt_code": "MDLT-0024"
+  },
+  "1471346337": {
+    "item_number": 1471346337,
+    "content_id": 1064068481,
+    "barcode": null,
+    "name_romanian": "Tocător electric de alimente profesional 1000W, bol din oțel inoxidabil de 3L, 4 lame din oțel inoxidabil, 3 viteze",
+    "name_english": "Professional Electric Food Chopper 1000W, 3L Stainless Bowl, 4 Stainless Blades, 3 Speeds",
+    "brand": "MODALITE LTD",
+    "price": 119,
+    "category": "Chopper & Rondo",
+    "mdlt_code": "MDLT-0025"
   },
   "1471346227": {
     "item_number": 1471346227,
@@ -274,6 +351,17 @@
     "category": "Curățător de ferestre",
     "mdlt_code": "MDLT-0021"
   },
+  "1471346044": {
+    "item_number": 1471346044,
+    "content_id": 1064068260,
+    "barcode": null,
+    "name_romanian": "Lampă de noapte cu proiecții de stele și lună și funcție de rotație",
+    "name_english": "Night Light with Star and Moon Projections and Rotation Function",
+    "brand": "MODALITE LTD",
+    "price": 89.9,
+    "category": "Lampă de birou",
+    "mdlt_code": "MDLT-0030"
+  },
   "1462880908": {
     "item_number": 1462880908,
     "content_id": 1057507417,
@@ -285,6 +373,17 @@
     "category": "Chiuveta de bucătărie",
     "mdlt_code": "MDLT-0018"
   },
+  "1325874329": {
+    "item_number": 1325874329,
+    "content_id": 937072698,
+    "barcode": null,
+    "name_romanian": "Set 3 Tavi pentru Prajituri Macvi® din metal diverse forme negre",
+    "name_english": "Set of 3 Macvi® Metal Cake Trays, various shapes, black",
+    "brand": "MACVI",
+    "price": 149,
+    "category": "Cuptor și mucegai pentru prăjituri",
+    "mdlt_code": "MDLT-0016"
+  },
   "1453535619": {
     "item_number": 1453535619,
     "content_id": 1050641395,
@@ -292,20 +391,9 @@
     "name_romanian": "Espressor portabil 3 în 1 pentru capsule și cafea măcinată, reîncărcabil USB, 20 bar, 60 ml",
     "name_english": "Portable 3-in-1 Espresso Machine for Capsules and Ground Coffee, Rechargeable USB, 20 BAR, 60 ml",
     "brand": "SokShop",
-    "price": 299,
+    "price": 269.9,
     "category": "Mașină electrică de măcinat cafea",
     "mdlt_code": "MDLT-0029"
-  },
-  "1471346337": {
-    "item_number": 1471346337,
-    "content_id": 1064068481,
-    "barcode": null,
-    "name_romanian": "Tocător electric de alimente profesional 1000W, bol din oțel inoxidabil de 3L, 4 lame din oțel inoxidabil, 3 viteze",
-    "name_english": "Professional Electric Food Chopper 1000W, 3L Stainless Bowl, 4 Stainless Blades, 3 Speeds",
-    "brand": "MODALITE LTD",
-    "price": 299.9,
-    "category": "Chopper & Rondo",
-    "mdlt_code": "MDLT-0025"
   },
   "1471346674": {
     "item_number": 1471346674,
@@ -318,16 +406,16 @@
     "category": "Găleată de gheață",
     "mdlt_code": "MDLT-0022"
   },
-  "1471346044": {
-    "item_number": 1471346044,
-    "content_id": 1064068260,
+  "1472183900": {
+    "item_number": 1472183900,
+    "content_id": 1064672709,
     "barcode": null,
-    "name_romanian": "Lampă de noapte cu proiecții de stele și lună și funcție de rotație",
-    "name_english": "Night Light with Star and Moon Projections and Rotation Function",
+    "name_romanian": "Set blender 5 în 1 RAZO – Putere 500 W, 5 accesorii, 700 ml",
+    "name_english": "Kitchen 5-in-1 Blender Set RAZO – 500 W Power, 5 Accessories, 700 ml",
     "brand": "MODALITE LTD",
-    "price": 158.78,
-    "category": "Lampă de birou",
-    "mdlt_code": "MDLT-0030"
+    "price": 169.9,
+    "category": "Blender și set de blender",
+    "mdlt_code": "MDLT-0027"
   },
   "1471639576": {
     "item_number": 1471639576,
@@ -340,27 +428,27 @@
     "category": "Organizator de bucatarie",
     "mdlt_code": "MDLT-0028"
   },
-  "1472183900": {
-    "item_number": 1472183900,
-    "content_id": 1064672709,
+  "1462880979": {
+    "item_number": 1462880979,
+    "content_id": 1057507442,
     "barcode": null,
-    "name_romanian": "Set blender 5 în 1 RAZO – Putere 500 W, 5 accesorii, 700 ml",
-    "name_english": "Kitchen 5-in-1 Blender Set RAZO – 500 W Power, 5 Accessories, 700 ml",
+    "name_romanian": "Răzătoare multifuncțională pentru legume și fructe , accesorii interschimbabile, gri/verde, 14 buc.",
+    "name_english": "Multifunctional grater for vegetables and fruits, interchangeable accessories, gray/green, 14 pcs.",
     "brand": "MODALITE LTD",
-    "price": 218.23,
-    "category": "Blender și set de blender",
-    "mdlt_code": "MDLT-0027"
+    "price": 83.81,
+    "category": "Râșniță",
+    "mdlt_code": "MDLT-0011"
   },
-  "1411147781": {
-    "item_number": 1411147781,
-    "content_id": 1016042597,
+  "1462805971": {
+    "item_number": 1462805971,
+    "content_id": 1057452646,
     "barcode": null,
-    "name_romanian": "Friteuză pătrată multifuncțională din cupru pentru cuptor - Migas",
-    "name_english": "Multifunctional Square Pan Copper Fryer for Oven - Migas",
-    "brand": "stuffix",
-    "price": 198,
-    "category": "Tigăi",
-    "mdlt_code": "MDLT-0024"
+    "name_romanian": "Suport de vase din oțel inoxidabil cu 2 niveluri – Organizator pentru farfurii, boluri și tacâmuri, negru, 40x25x40 cm",
+    "name_english": "2-Tier Stainless Steel Kitchen Dish Rack – Plates, Bowls & Utensils Organizer, Black, 40x25x40 cm",
+    "brand": "MODALITE",
+    "price": 129.9,
+    "category": "Organizator de bucatarie",
+    "mdlt_code": "MDLT-0005"
   },
   "1464704913": {
     "item_number": 1464704913,
@@ -383,16 +471,5 @@
     "price": 149.9,
     "category": "Raft de vase",
     "mdlt_code": "MDLT-0031"
-  },
-  "1462805971": {
-    "item_number": 1462805971,
-    "content_id": 1057452646,
-    "barcode": null,
-    "name_romanian": "Suport de vase din oțel inoxidabil cu 2 niveluri – Organizator pentru farfurii, boluri și tacâmuri, negru, 40x25x40 cm",
-    "name_english": "2-Tier Stainless Steel Kitchen Dish Rack – Plates, Bowls & Utensils Organizer, Black, 40x25x40 cm",
-    "brand": "MODALITE",
-    "price": 129.9,
-    "category": "Organizator de bucatarie",
-    "mdlt_code": "MDLT-0005"
   }
 }
