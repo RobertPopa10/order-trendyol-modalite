@@ -2558,5 +2558,805 @@
       "customer": "Marius  Voicu",
       "items_count": 1
     }
+  },
+  "3547830275": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.145027",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10891812861",
+      "customer": "Rodica Nicula",
+      "items_count": 1
+    }
+  },
+  "3547303051": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.149871",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10891333990",
+      "customer": "Claudiu Anita",
+      "items_count": 1
+    }
+  },
+  "3547198086": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.154390",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10891235570",
+      "customer": "Cismaru  Mihaela",
+      "items_count": 1
+    }
+  },
+  "3547130831": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.157831",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10891174552",
+      "customer": "Toader  Elena",
+      "items_count": 1
+    }
+  },
+  "3547016492": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.162130",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10891068829",
+      "customer": "Maria Iulia Covrigeanu",
+      "items_count": 1
+    }
+  },
+  "3546932182": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.165035",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10890989592",
+      "customer": "Dascalu Loredana",
+      "items_count": 1
+    }
+  },
+  "3546849130": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.172107",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10890909801",
+      "customer": "Claudia gheorghita Croitoru",
+      "items_count": 1
+    }
+  },
+  "3546697567": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.178422",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10890759330",
+      "customer": "Dumitru  laurentiu",
+      "items_count": 1
+    }
+  },
+  "3546612815": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.182591",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10890673229",
+      "customer": "Dorina Bedea",
+      "items_count": 1
+    }
+  },
+  "3546587312": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.185835",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10890646728",
+      "customer": "stoica mariana",
+      "items_count": 1
+    }
+  },
+  "3546512035": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.187851",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10890567030",
+      "customer": "Mariana  Anton",
+      "items_count": 1
+    }
+  },
+  "3546495132": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.190059",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10890548178",
+      "customer": "Bonte  Gabriela",
+      "items_count": 1
+    }
+  },
+  "3546245700": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.194110",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10890254692",
+      "customer": "Cernei Vitalie",
+      "items_count": 1
+    }
+  },
+  "3546131837": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.196604",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10890097083",
+      "customer": "Dumitru George Emanuel",
+      "items_count": 1
+    }
+  },
+  "3546004192": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.199677",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10889916684",
+      "customer": "popa Marcela",
+      "items_count": 1
+    }
+  },
+  "3545740218": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.201649",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10889574531",
+      "customer": "costinar maria",
+      "items_count": 1
+    }
+  },
+  "3545662088": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.204480",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10889481828",
+      "customer": "Ambrus  Katalin",
+      "items_count": 1
+    }
+  },
+  "3545476593": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.206500",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10889264170",
+      "customer": "Genghiz  Asan",
+      "items_count": 1
+    }
+  },
+  "3545401785": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.208624",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10889177220",
+      "customer": "Maria  Bledea",
+      "items_count": 1
+    }
+  },
+  "3545388472": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.210392",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10889160893",
+      "customer": "Andrei Grigoras",
+      "items_count": 1
+    }
+  },
+  "3545156255": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.212517",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10888886170",
+      "customer": "Marina Circiu",
+      "items_count": 1
+    }
+  },
+  "3545138936": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.214497",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10888866783",
+      "customer": "ionela  gheorghe",
+      "items_count": 1
+    }
+  },
+  "3545071920": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.216558",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10888787763",
+      "customer": "adela nemes",
+      "items_count": 1
+    }
+  },
+  "3545051136": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.218668",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10888763468",
+      "customer": "Mihalache  Alin",
+      "items_count": 1
+    }
+  },
+  "3545035574": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.220765",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10888745003",
+      "customer": "Anghel  Ovidiu",
+      "items_count": 1
+    }
+  },
+  "3544938836": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.222769",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10888651436",
+      "customer": "Moldovan  bianca",
+      "items_count": 1
+    }
+  },
+  "3544550647": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.224870",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10888252800",
+      "customer": "Vasile  Daniela",
+      "items_count": 1
+    }
+  },
+  "3544477022": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.226898",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10888173000",
+      "customer": "Printipu  Elena",
+      "items_count": 1
+    }
+  },
+  "3544368483": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.228805",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10888055010",
+      "customer": "paula marinac",
+      "items_count": 1
+    }
+  },
+  "3544338508": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.230828",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10888020802",
+      "customer": "Andrei  Stanciu",
+      "items_count": 1
+    }
+  },
+  "3544247088": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.232705",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10887919484",
+      "customer": "Preda Iulia",
+      "items_count": 1
+    }
+  },
+  "3544141454": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.234779",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10887790212",
+      "customer": "vladut alina",
+      "items_count": 1
+    }
+  },
+  "3544125154": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.236790",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10887770526",
+      "customer": "iliescu mihaela",
+      "items_count": 1
+    }
+  },
+  "3544033036": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.238743",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10887650755",
+      "customer": "Balint Csilla",
+      "items_count": 1
+    }
+  },
+  "3543796345": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.240502",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10887298824",
+      "customer": "Huci  Ionela",
+      "items_count": 1
+    }
+  },
+  "3543625929": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.242403",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10887057029",
+      "customer": "Radulescu Ionela",
+      "items_count": 1
+    }
+  },
+  "3543514782": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.244401",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10886909344",
+      "customer": "Ionut Dragnea",
+      "items_count": 1
+    }
+  },
+  "3543399612": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.246328",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10886761714",
+      "customer": "Neacsu Paula",
+      "items_count": 1
+    }
+  },
+  "3543134541": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.248110",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10886442419",
+      "customer": "Alina CSeh",
+      "items_count": 1
+    }
+  },
+  "3543058258": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.250113",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10886350982",
+      "customer": "Marcu Madalina",
+      "items_count": 1
+    }
+  },
+  "3543024567": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.252064",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10886311806",
+      "customer": "Baciu  Raluca",
+      "items_count": 1
+    }
+  },
+  "3542975225": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.254298",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10886253639",
+      "customer": "Buleandra  Maria",
+      "items_count": 1
+    }
+  },
+  "3542813268": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.256374",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10886070303",
+      "customer": "Pop Nicoleta",
+      "items_count": 1
+    }
+  },
+  "3542489719": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.258297",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885753628",
+      "customer": "codreanu  Alina ionela",
+      "items_count": 1
+    }
+  },
+  "3542419105": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.260250",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885681658",
+      "customer": "Ramona Mazarache",
+      "items_count": 1
+    }
+  },
+  "3542398889": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.262208",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885662910",
+      "customer": "Alexandra Zama",
+      "items_count": 1
+    }
+  },
+  "3542228593": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.264220",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885490282",
+      "customer": "Diana Trasca",
+      "items_count": 1
+    }
+  },
+  "3542203496": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.266245",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885463699",
+      "customer": "Lidia Pogonici",
+      "items_count": 1
+    }
+  },
+  "3542185152": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.268267",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885442275",
+      "customer": "barbu adriana",
+      "items_count": 1
+    }
+  },
+  "3542162021": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.270170",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885417756",
+      "customer": "Maria  Ofrim",
+      "items_count": 1
+    }
+  },
+  "3542052552": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.272163",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885298195",
+      "customer": "Catalin Laurentiu Szabo",
+      "items_count": 1
+    }
+  },
+  "3542019096": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.274256",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885263622",
+      "customer": "Herchi  Cristina",
+      "items_count": 1
+    }
+  },
+  "3541988717": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.276103",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885227291",
+      "customer": "Mitache  Florin",
+      "items_count": 1
+    }
+  },
+  "3541820803": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.278141",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10885023043",
+      "customer": "Tonia Negoita",
+      "items_count": 1
+    }
+  },
+  "3541758026": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.280120",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10884939499",
+      "customer": "Puerava  Elena",
+      "items_count": 1
+    }
+  },
+  "3541527657": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.282116",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10884587252",
+      "customer": "BULZAN ANCA",
+      "items_count": 1
+    }
+  },
+  "3541474810": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.284112",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10884507107",
+      "customer": "popa mirela",
+      "items_count": 1
+    }
+  },
+  "3541440052": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.286162",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10884457024",
+      "customer": "moiseanu  Denisa",
+      "items_count": 1
+    }
+  },
+  "3541418222": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.288374",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10884429942",
+      "customer": "Mirel  Mandachi",
+      "items_count": 1
+    }
+  },
+  "3541165134": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.290464",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10884111368",
+      "customer": "Blindu Geta",
+      "items_count": 1
+    }
+  },
+  "3541155377": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.292608",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10884105328",
+      "customer": "Braga Alina",
+      "items_count": 1
+    }
+  },
+  "3541104298": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.294923",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10884044404",
+      "customer": "Stoican  Mariana",
+      "items_count": 1
+    }
+  },
+  "3541068345": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.296895",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10883999969",
+      "customer": "Adrian  Pruna",
+      "items_count": 1
+    }
+  },
+  "3540962256": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.298894",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10883864287",
+      "customer": "adriana ilie",
+      "items_count": 1
+    }
+  },
+  "3540935448": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.301173",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10883833621",
+      "customer": "Serban  Ecaterina",
+      "items_count": 1
+    }
+  },
+  "3540936520": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.303454",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10883831133",
+      "customer": "szasz alida",
+      "items_count": 1
+    }
+  },
+  "3540896874": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.307407",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10883781562",
+      "customer": "Bohdan  Tsurkan",
+      "items_count": 1
+    }
+  },
+  "3540881759": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.316721",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10883762022",
+      "customer": "Onofrei Petronel",
+      "items_count": 1
+    }
+  },
+  "3540852780": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.330453",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10883726246",
+      "customer": "Andrea  Antal",
+      "items_count": 1
+    }
+  },
+  "3540822801": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.358932",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10883676493",
+      "customer": "Dumitrescu  ioana",
+      "items_count": 1
+    }
+  },
+  "3540810537": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.362300",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10883672882",
+      "customer": "Ionela Cristian",
+      "items_count": 1
+    }
+  },
+  "3540778556": {
+    "status": "processed",
+    "processed_at": "2026-01-19T12:12:39.373692",
+    "session_id": "20260119_121234",
+    "details": {
+      "order_number": "10883629178",
+      "customer": "Anton  Raluca",
+      "items_count": 1
+    }
+  },
+  "3550226149": {
+    "status": "processed",
+    "processed_at": "2026-01-20T10:28:21.904621",
+    "session_id": "20260120_102818",
+    "details": {
+      "order_number": "10894205698",
+      "customer": "chendes ana",
+      "items_count": 1
+    }
+  },
+  "3550194265": {
+    "status": "processed",
+    "processed_at": "2026-01-20T10:28:21.913568",
+    "session_id": "20260120_102818",
+    "details": {
+      "order_number": "10894172983",
+      "customer": "Vlad Aioanei",
+      "items_count": 1
+    }
+  },
+  "3550188253": {
+    "status": "processed",
+    "processed_at": "2026-01-20T10:28:21.915938",
+    "session_id": "20260120_102818",
+    "details": {
+      "order_number": "10894166064",
+      "customer": "Popoiu  Gicuta",
+      "items_count": 1
+    }
+  },
+  "3550139777": {
+    "status": "processed",
+    "processed_at": "2026-01-20T10:28:21.918621",
+    "session_id": "20260120_102818",
+    "details": {
+      "order_number": "10894118486",
+      "customer": "Tirlea Maria",
+      "items_count": 1
+    }
+  },
+  "3548760854": {
+    "status": "processed",
+    "processed_at": "2026-01-20T10:28:21.921150",
+    "session_id": "20260120_102818",
+    "details": {
+      "order_number": "10892779352",
+      "customer": "Pop Adriana",
+      "items_count": 1
+    }
+  },
+  "3548750465": {
+    "status": "processed",
+    "processed_at": "2026-01-20T10:28:21.924479",
+    "session_id": "20260120_102818",
+    "details": {
+      "order_number": "10892767323",
+      "customer": "Buga  Cecilia",
+      "items_count": 1
+    }
+  },
+  "3548575616": {
+    "status": "processed",
+    "processed_at": "2026-01-20T10:28:21.928169",
+    "session_id": "20260120_102818",
+    "details": {
+      "order_number": "10892563776",
+      "customer": "Pagu Vasile",
+      "items_count": 1
+    }
+  },
+  "3548324638": {
+    "status": "processed",
+    "processed_at": "2026-01-20T10:28:21.930410",
+    "session_id": "20260120_102818",
+    "details": {
+      "order_number": "10892304044",
+      "customer": "georgiana coman",
+      "items_count": 1
+    }
   }
 }
