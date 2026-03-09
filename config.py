@@ -46,9 +46,9 @@ class Config:
     
     @property
     def stocktva_mapping_path(self):
-        """Path to the stockTVA product_name_mapping.json (shared, read-only)."""
-        # Default path: assumes stockTVA is a sibling directory
-        default_path = self.project_path.parent / 'stockTVA' / 'data' / 'product_name_mapping.json'
+        """Path to the stock-modalite product_name_mapping.json (shared, read-only)."""
+        # Default path: assumes stock-modalite is a sibling directory
+        default_path = self.project_path.parent / 'stock-modalite' / 'data' / 'product_name_mapping.json'
         stocktva_path = os.getenv('STOCKTVA_MAPPING_PATH', str(default_path))
         return Path(stocktva_path)
     

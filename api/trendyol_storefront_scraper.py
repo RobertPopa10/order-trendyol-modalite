@@ -176,13 +176,13 @@ class TrendyolStorefrontScraper:
     
     def save_product_mapping(self, mapping: Dict[int, Dict], output_file: Path) -> None:
         """
-        Save product mapping to JSON file, preserving existing RAZZ codes.
+        Save product mapping to JSON file, preserving existing data and using stock-modalite for names.
         
         Args:
-            mapping: Product mapping dictionary
+            mapping: Product mapping dictionary from storefront
             output_file: Path to save the mapping
         """
-        # Load existing data to preserve RAZZ codes
+        # Load existing data to preserve barcodes and other fields
         existing_data = {}
         if output_file.exists():
             try:
@@ -192,26 +192,105 @@ class TrendyolStorefrontScraper:
             except Exception as e:
                 self.logger.warning(f"Could not load existing file: {e}")
         
+        # Load stock-modalite mapping to get Romanian names for products with MDLT codes
+        stock_mapping = {}
+        try:
+            import sys
+            sys.path.append(str(Path(__file__).parent.parent))
+            from config import Config
+            config = Config()
+            stock_path = config.stocktva_mapping_path
+            
+            if stock_path.exists():
+                with open(stock_path, 'r', encoding='utf-8') as f:
+                    stock_data = json.load(f)
+                
+                # Build reverse mapping: trendyol_id -> Romanian name
+                for mdlt_code, mdlt_data in stock_data.items():
+                    trendyol_ids = mdlt_data.get('trendyol_ids', [])
+                    original_romanian = mdlt_data.get('original_romanian', '')
+                    
+                    for trendyol_id in trendyol_ids:
+                        stock_mapping[str(trendyol_id)] = {
+                            'mdlt_code': mdlt_code,
+                            'original_romanian': original_romanian,
+                            'simplified_name': mdlt_data.get('simplified_name', ''),
+                            'color': mdlt_data.get('color', '')
+                        }
+                
+                self.logger.info(f"Loaded stock-modalite mapping with {len(stock_mapping)} trendyol IDs")
+        except Exception as e:
+            self.logger.warning(f"Could not load stock-modalite mapping: {e}")
+        
         # Convert int keys to strings for JSON
         json_mapping = {}
+        
+        # First, add all products from storefront
         for k, v in mapping.items():
             key_str = str(k)
             
-            # If product exists, preserve MDLT code and other important fields
+            # Start with new scraped data
+            product_data = {**v}
+            
+            # If product exists, preserve important fields
             if key_str in existing_data:
                 existing_entry = existing_data[key_str]
-                # Preserve existing MDLT code and other fields, only update basic info
-                json_mapping[key_str] = {
-                    **v,  # New scraped data
-                    'mdlt_code': existing_entry.get('mdlt_code', v.get('mdlt_code')),  # Preserve MDLT code
-                }
-                # Preserve any other custom fields that might exist
+                # Preserve barcode if not in storefront data
+                if not product_data.get('barcode') and existing_entry.get('barcode'):
+                    product_data['barcode'] = existing_entry['barcode']
+                
+                # Preserve any other custom fields
                 for field in ['mdlt_code', 'stock', 'variants', 'color', 'simplified_name', 'original_romanian']:
-                    if field in existing_entry:
-                        json_mapping[key_str][field] = existing_entry[field]
-            else:
-                # New product, use scraped data as-is
-                json_mapping[key_str] = v
+                    if field in existing_entry and field not in product_data:
+                        product_data[field] = existing_entry[field]
+            
+            # If product has stock-modalite mapping, use that data
+            if key_str in stock_mapping:
+                stock_info = stock_mapping[key_str]
+                product_data['mdlt_code'] = stock_info['mdlt_code']
+                
+                # Use stock-modalite Romanian name if storefront name is empty
+                if not product_data.get('name_romanian') and stock_info.get('original_romanian'):
+                    product_data['name_romanian'] = stock_info['original_romanian']
+                    self.logger.info(f"Using stock-modalite Romanian name for product {key_str}")
+                
+                # Add other stock-modalite fields
+                for field in ['simplified_name', 'color', 'original_romanian']:
+                    if stock_info.get(field):
+                        product_data[field] = stock_info[field]
+            
+            json_mapping[key_str] = product_data
+        
+        # Second, preserve products with barcodes that are NOT in storefront
+        # (products from orders that may have been delisted)
+        barcode_only_count = 0
+        for key_str, existing_entry in existing_data.items():
+            if key_str not in json_mapping:
+                # Product not in storefront - check if it has a barcode
+                if existing_entry.get('barcode'):
+                    # Preserve this product with barcode
+                    json_mapping[key_str] = existing_entry
+                    barcode_only_count += 1
+                    
+                    # If it has stock-modalite mapping, update Romanian name AND other fields
+                    if key_str in stock_mapping:
+                        stock_info = stock_mapping[key_str]
+                        json_mapping[key_str]['mdlt_code'] = stock_info['mdlt_code']
+                        
+                        # ALWAYS use stock-modalite name for delisted products (override empty or incorrect names)
+                        if stock_info.get('original_romanian'):
+                            json_mapping[key_str]['name_romanian'] = stock_info['original_romanian']
+                            self.logger.info(f"Updated barcode-only product {key_str} with stock-modalite Romanian name: {stock_info['original_romanian']}")
+                        
+                        # Also update other stock-modalite fields
+                        for field in ['simplified_name', 'color']:
+                            if stock_info.get(field):
+                                json_mapping[key_str][field] = stock_info[field]
+                    else:
+                        self.logger.warning(f"Barcode-only product {key_str} has no stock-modalite mapping - name may be empty!")
+        
+        if barcode_only_count > 0:
+            self.logger.info(f"Preserved {barcode_only_count} barcode-only products not in storefront")
         
         output_file.parent.mkdir(parents=True, exist_ok=True)
         

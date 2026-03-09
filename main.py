@@ -211,7 +211,25 @@ class ExcelGeneratorService:
                 elif "💾 Saved product mapping to:" in line:
                     self.logger.info(f"  {line}")
             
-            # Step 2: Run the mapping update
+            # Step 2: Update barcodes from order history
+            self.logger.info("🔖 Updating product barcodes from order history...")
+            barcode_script = Path(__file__).parent / "update_barcodes_from_orders.py"
+            
+            result = subprocess.run([
+                sys.executable, str(barcode_script)
+            ], capture_output=True, text=True, cwd=Path(__file__).parent)
+            
+            if result.returncode != 0:
+                self.logger.warning(f"Barcode update failed: {result.stderr}")
+                # Don't fail the whole process, just log the warning
+            else:
+                # Parse the output to get stats
+                output_lines = result.stdout.strip().split('\n')
+                for line in output_lines:
+                    if "Found barcodes for" in line or "Successfully updated" in line:
+                        self.logger.info(f"  {line}")
+            
+            # Step 3: Run the mapping update
             self.logger.info("🔄 Updating product name mapping...")
             update_script = Path(__file__).parent / "update_mapping_razz.py"
             

@@ -57,13 +57,19 @@ def update_mdlt_based_mapping():
     print(f"📋 Built reverse lookup for {len(trendyol_to_mdlt)} Trendyol IDs")
     
     # First, check if products missing MDLT codes are truly NEW (not in existing mapping)
+    # BUT ONLY for products that actually have barcodes (meaning they appear in orders)
     products_missing_mdlt = []
     
     for item_number, product_data in scraped_data.items():
         romanian_name = product_data.get('name_romanian', '')
         mdlt_code = product_data.get('mdlt_code', '')
+        barcode = product_data.get('barcode')
         
         if not romanian_name:
+            continue
+        
+        # ONLY check products that have barcodes (appear in orders)
+        if not barcode:
             continue
             
         # Check if product is missing MDLT code AND is not in existing mapping
@@ -75,23 +81,25 @@ def update_mdlt_based_mapping():
                     'name_romanian': romanian_name,
                     'name_english': product_data.get('name_english', ''),
                     'price': product_data.get('price', ''),
-                    'category': product_data.get('category', '')
+                    'category': product_data.get('category', ''),
+                    'barcode': barcode
                 })
             else:
                 print(f"ℹ️  Product {item_number} exists in mapping but missing mdlt_code in scraped data (will update anyway)")
     
     # If any products are missing MDLT codes, stop and require manual intervention
     if products_missing_mdlt:
-        print(f"\n🚨 ERROR: {len(products_missing_mdlt)} PRODUCTS MISSING MDLT CODES!")
+        print(f"\n🚨 ERROR: {len(products_missing_mdlt)} ORDERED PRODUCTS MISSING MDLT CODES!")
         print("=" * 80)
         print("🚨 MANUAL ACTION REQUIRED:")
-        print("   Products in trendyol_products_romanian.json are missing 'mdlt_code' fields!")
+        print("   These products appeared in recent ORDERS but don't have MDLT codes!")
         print("   You must manually add MDLT codes to these products:")
         print("=" * 80)
         
         for i, product in enumerate(products_missing_mdlt[:10]):  # Show first 10
             print(f"   {i+1}. ID: {product['item_number']}")
             print(f"      Name: {product['name_romanian']}")
+            print(f"      Barcode: {product.get('barcode', 'N/A')}")
             print(f"      Category: {product.get('category', 'N/A')}")
             print(f"      → Add: \"mdlt_code\": \"MDLT-XXXX\"")
             print()
