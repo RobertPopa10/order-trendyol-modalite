@@ -229,6 +229,9 @@ def get_product_mapper(fail_on_missing: bool = True) -> ProductMapper:
         config = get_config()
         # Use stockTVA mapping as the source
         _mapper_instance = ProductMapper(mapping_file=config.stocktva_mapping_path, fail_on_missing=fail_on_missing)
+    else:
+        # Keep singleton behavior but always honor the caller's strictness request.
+        _mapper_instance.fail_on_missing = fail_on_missing
     return _mapper_instance
 
 

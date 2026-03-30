@@ -35,8 +35,8 @@ class OrderProcessor:
         # Initialize API clients and services
         self.trendyol = TrendyolClient()
         self.translator = get_auto_translator()
-        # Allow color extraction to return "N/A" for products without colors
-        self.mapper = get_product_mapper(fail_on_missing=False)
+        # Hard-fail when a product mapping is missing; never use fallback values.
+        self.mapper = get_product_mapper(fail_on_missing=True)
         self.excel_generator = ExcelGenerator()
         
         # Setup state tracking

@@ -234,7 +234,7 @@ class ExcelGeneratorService:
             update_script = Path(__file__).parent / "update_mapping_razz.py"
             
             result = subprocess.run([
-                sys.executable, str(update_script)
+                sys.executable, str(update_script), "--read-only"
             ], capture_output=True, text=True, cwd=Path(__file__).parent)
             
             if result.returncode != 0:

@@ -12,11 +12,12 @@ NOTE: This script now uses the stockTVA/data/product_name_mapping.json as the so
 
 import json
 import sys
+import argparse
 from pathlib import Path
 from config import get_config
 
-def update_mdlt_based_mapping():
-    """Update MDLT-based product name mapping with latest scraped data - PRESERVES MDLT CODES"""
+def update_mdlt_based_mapping(allow_write: bool = False):
+    """Update MDLT-based mapping data. Writes are disabled unless allow_write=True."""
     
     # Get configuration
     config = get_config()
@@ -26,6 +27,8 @@ def update_mdlt_based_mapping():
     mapping_path = config.stocktva_mapping_path  # Use stockTVA mapping
     
     print(f"📍 Using mapping file: {mapping_path}")
+    if not allow_write:
+        print("🔒 Read-only mode: no changes will be written to product_name_mapping.json")
     
     # Load existing MDLT-based mapping
     if mapping_path.exists():
@@ -133,38 +136,41 @@ def update_mdlt_based_mapping():
             
             # Update Romanian name if changed - PRESERVE ALL OTHER FIELDS
             if existing_entry.get('original_romanian', '') != romanian_name:
-                print(f"🔄 Updating Romanian name for {existing_mdlt_code} (Trendyol ID: {item_number})")
-                existing_entry['original_romanian'] = romanian_name
-                
-                # Update variants - ensure this Romanian name is in the variants list
-                variants = existing_entry.get('variants', [])
-                if romanian_name not in variants:
-                    variants.append(romanian_name)
-                    existing_entry['variants'] = variants
-                
+                print(f"🔄 {'Would update' if not allow_write else 'Updating'} Romanian name for {existing_mdlt_code} (Trendyol ID: {item_number})")
+                if allow_write:
+                    existing_entry['original_romanian'] = romanian_name
+                    
+                    # Update variants - ensure this Romanian name is in the variants list
+                    variants = existing_entry.get('variants', [])
+                    if romanian_name not in variants:
+                        variants.append(romanian_name)
+                        existing_entry['variants'] = variants
+
                 updated_count += 1
         elif scraped_mdlt_code:
             # NEW PRODUCT FOUND with MDLT code - Add to mapping
             if scraped_mdlt_code not in existing_mapping:
-                # Create new MDLT code entry
-                existing_mapping[scraped_mdlt_code] = {
-                    'simplified_name': romanian_name,  # Use Romanian name as simplified name initially
-                    'color': 'N/A',
-                    'original_romanian': romanian_name,
-                    'stock': 0,
-                    'trendyol_ids': [item_number],
-                    'variants': [romanian_name]
-                }
-                print(f"✅ Added new product: {scraped_mdlt_code} - {romanian_name}")
+                if allow_write:
+                    # Create new MDLT code entry
+                    existing_mapping[scraped_mdlt_code] = {
+                        'simplified_name': romanian_name,  # Use Romanian name as simplified name initially
+                        'color': 'N/A',
+                        'original_romanian': romanian_name,
+                        'stock': 0,
+                        'trendyol_ids': [item_number],
+                        'variants': [romanian_name]
+                    }
+                print(f"✅ {'Would add' if not allow_write else 'Added'} new product: {scraped_mdlt_code} - {romanian_name}")
                 updated_count += 1
             else:
                 # MDLT code exists, add this Trendyol ID to it
                 existing_entry = existing_mapping[scraped_mdlt_code]
                 if item_number not in existing_entry['trendyol_ids']:
-                    existing_entry['trendyol_ids'].append(item_number)
-                    if romanian_name not in existing_entry['variants']:
-                        existing_entry['variants'].append(romanian_name)
-                    print(f"✅ Added Trendyol ID {item_number} to existing {scraped_mdlt_code}")
+                    if allow_write:
+                        existing_entry['trendyol_ids'].append(item_number)
+                        if romanian_name not in existing_entry['variants']:
+                            existing_entry['variants'].append(romanian_name)
+                    print(f"✅ {'Would add' if not allow_write else 'Added'} Trendyol ID {item_number} to existing {scraped_mdlt_code}")
                     updated_count += 1
         # If no scraped_razz_code and not in existing mapping, it was already caught above
     
@@ -197,10 +203,13 @@ def update_mdlt_based_mapping():
     
     # Save updated mapping
     if updated_count > 0:
-        print(f"\n💾 Saving updated mapping with {updated_count} changes...")
-        with open(mapping_path, 'w', encoding='utf-8') as f:
-            json.dump(existing_mapping, f, ensure_ascii=False, indent=2)
-        print(f"✅ Successfully updated {updated_count} products")
+        if allow_write:
+            print(f"\n💾 Saving updated mapping with {updated_count} changes...")
+            with open(mapping_path, 'w', encoding='utf-8') as f:
+                json.dump(existing_mapping, f, ensure_ascii=False, indent=2)
+            print(f"✅ Successfully updated {updated_count} products")
+        else:
+            print(f"\nℹ️ Read-only summary: detected {updated_count} change(s), wrote 0 changes")
     else:
         print("✅ No updates needed - all products are up to date")
     
@@ -211,10 +220,27 @@ def update_mdlt_based_mapping():
     print(f"   Total Trendyol IDs: {total_trendyol_ids}")
     print(f"   Products updated: {updated_count}")
     print(f"   New products found: {len(new_products)}")
+    print(f"   Write mode: {'ENABLED' if allow_write else 'DISABLED (read-only)'}")
     
     return True
 
 if __name__ == "__main__":
-    success = update_mdlt_based_mapping()
+    parser = argparse.ArgumentParser(description="Update MDLT mapping from scraped products")
+    parser.add_argument(
+        '--write',
+        action='store_true',
+        help='Actually write changes to stock-modalite mapping file (default: read-only)'
+    )
+    parser.add_argument(
+        '--read-only',
+        action='store_true',
+        help='Run in read-only mode (default behavior)'
+    )
+    args = parser.parse_args()
+
+    # Safe default: read-only unless user explicitly opts into --write.
+    allow_write = args.write
+
+    success = update_mdlt_based_mapping(allow_write=allow_write)
     if not success:
         sys.exit(1)
