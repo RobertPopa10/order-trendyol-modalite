@@ -37,7 +37,8 @@ class TrendyolStorefrontScraper:
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'application/json, text/plain, */*',
             'Accept-Language': 'ro-RO,ro;q=0.9,en-US;q=0.8,en;q=0.7',
-            'Accept-Encoding': 'gzip, deflate, br',
+            # Avoid Brotli because this environment does not have a Brotli decoder installed.
+            'Accept-Encoding': 'gzip, deflate',
             'Origin': 'https://www.trendyol.com',
             'Referer': f'https://www.trendyol.com/ro/sr?mid={merchant_id}',
             'Sec-Fetch-Dest': 'empty',
@@ -102,7 +103,16 @@ class TrendyolStorefrontScraper:
                     )
                     
                     if response.status_code == 200:
-                        data = response.json()
+                        try:
+                            data = response.json()
+                        except json.JSONDecodeError as e:
+                            self.logger.error(
+                                "Failed to decode storefront response as JSON "
+                                f"(content-encoding={response.headers.get('content-encoding')}, "
+                                f"content-type={response.headers.get('content-type')}): {e}"
+                            )
+                            self.logger.error(f"Response prefix: {repr(response.text[:200])}")
+                            raise
                         
                         products = data.get('products', [])
                         if not products:
