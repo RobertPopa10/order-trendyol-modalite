@@ -258,7 +258,7 @@ class ExcelGeneratorService:
             self.logger.error(f"Failed to update product data: {e}")
             return False
     
-    def _reorder_awbs(self, order_list_file: str):
+    def _reorder_awbs(self, order_list_file: str, ignore_missing: bool = False):
         """Automatically reorder AWBs if PDF exists."""
         from pathlib import Path
         from split_and_reorder_awbs import split_and_reorder_pdf
@@ -314,6 +314,14 @@ class ExcelGeneratorService:
                     self.logger.info(f"  🏷️  Reordered AWBs: {output_path.name}")
                     self.logger.info(f"  ✅ AWB Validation PASSED: {result['matched_awbs']}/{result['total_orders']} AWBs matched")
                     return True
+                elif ignore_missing:
+                    self.logger.warning(f"  ⚠️  AWB Validation skipped (--ignore-missing): {result['matched_awbs']}/{result['total_orders']} AWBs matched")
+                    self.logger.warning(f"  Missing {result['missing_awbs']} AWB(s) — output saved without them")
+                    if result.get('missing_orders'):
+                        for missing in result['missing_orders']:
+                            self.logger.warning(f"    - {missing['customer']} (AWB: {missing['tracking']})")
+                    self.logger.info(f"  🏷️  Reordered AWBs (partial): {output_path.name}")
+                    return True
                 else:
                     # AWB count mismatch - delete processed orders and fail
                     self.logger.error(f"  ❌ AWB Validation FAILED: {result['matched_awbs']}/{result['total_orders']} AWBs matched")
@@ -344,7 +352,7 @@ class ExcelGeneratorService:
             self.logger.error(f"  ❌ AWB reorder failed: {e}")
             return False
     
-    def run_once(self, max_pages: int = 5, skip_prerequisites: bool = False) -> bool:
+    def run_once(self, max_pages: int = 5, skip_prerequisites: bool = False, ignore_missing_awbs: bool = False) -> bool:
         """
         Run order processing once.
         Fetches ALL orders across multiple pages and processes only new ones.
@@ -392,7 +400,7 @@ class ExcelGeneratorService:
                     self.logger.info(f"  📋 Order list (for AWB): {result['order_list_file']}")
                     
                     # Auto-reorder AWBs
-                    awb_success = self._reorder_awbs(result['order_list_file'])
+                    awb_success = self._reorder_awbs(result['order_list_file'], ignore_missing=ignore_missing_awbs)
                     if not awb_success:
                         # AWB validation failed, processing should be considered failed
                         self.logger.error("🚫 Processing FAILED due to AWB validation failure")
@@ -505,6 +513,12 @@ def main():
         help='Skip the product data update prerequisites (scraper + mapping update)'
     )
     
+    parser.add_argument(
+        '--ignore-missing',
+        action='store_true',
+        help='Continue even if some AWBs are missing from the PDF (skips validation failure)'
+    )
+    
     args = parser.parse_args()
     
     # Create service instance
@@ -541,7 +555,7 @@ def main():
         return 0
     
     # Default: run once
-    success = service.run_once(max_pages=args.max_pages, skip_prerequisites=args.skip_prerequisites)
+    success = service.run_once(max_pages=args.max_pages, skip_prerequisites=args.skip_prerequisites, ignore_missing_awbs=args.ignore_missing)
     return 0 if success else 1
 
 
