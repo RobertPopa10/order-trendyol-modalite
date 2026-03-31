@@ -153,6 +153,20 @@
     "simplified_name": "Uscator Vertical",
     "original_romanian": "Uscator Vertical pentru Rufe Haine Mobil si Pliabil cu Suport Umerase, Timetrade, Inaltime 175 cm"
   },
+  "1549099284": {
+    "item_number": 1549099284,
+    "content_id": 1113587801,
+    "barcode": "675121698360",
+    "name_romanian": "Set cana cu incalzire electrica, 250 ml, Suport mentinere temperatura, Verde",
+    "name_english": "Electric heated mug set, 250 ml, Keep warm holder, Green",
+    "brand": "MODALITE",
+    "price": 64,
+    "category": "Cești de cafea",
+    "mdlt_code": "MDLT-0053",
+    "color": "Verde",
+    "simplified_name": "Set cana cu incalzire verde",
+    "original_romanian": "Set cana cu incalzire electrica, 250 ml, Suport mentinere temperatura, Verde"
+  },
   "1397123895": {
     "item_number": 1397123895,
     "content_id": 988450830,
@@ -181,33 +195,19 @@
     "simplified_name": "Irigator Oral Portabil ALB",
     "original_romanian": "Irigator oral pentru duș bucal, Profesional, 4 accesorii și 3 moduri de curățare, 220 ml - Alb"
   },
-  "1549099284": {
-    "item_number": 1549099284,
-    "content_id": 1113587801,
-    "barcode": "675121698360",
-    "name_romanian": "Set cana cu incalzire electrica, 250 ml, Suport mentinere temperatura, Verde",
-    "name_english": "Electric heated mug set, 250 ml, Keep warm holder, Green",
+  "1549112708": {
+    "item_number": 1549112708,
+    "content_id": 1113599488,
+    "barcode": "675121698377",
+    "name_romanian": "Set cana cu incalzire electrica, 250 ml, Suport mentinere temperatura, Roz",
+    "name_english": "Electric heated mug set, 250 ml, Keep warm holder, Pink",
     "brand": "MODALITE",
-    "price": 64,
+    "price": 69,
     "category": "Cești de cafea",
-    "mdlt_code": "MDLT-0053",
-    "color": "Verde",
-    "simplified_name": "Set cana cu incalzire verde",
-    "original_romanian": "Set cana cu incalzire electrica, 250 ml, Suport mentinere temperatura, Verde"
-  },
-  "1468464681": {
-    "item_number": 1468464681,
-    "content_id": 1061874244,
-    "barcode": "TYBOP0UVED8C0MPO63",
-    "name_romanian": "Tocător, Feliator Și Răzătoare 15-în-1 Pentru Legume Și Fructe (Varianta Originală)",
-    "name_english": "15-in-1 Vegetable and Fruit Chopper, Slicer and Grater (Original Version)",
-    "brand": "OferteTop",
-    "price": 199,
-    "category": "Ustensile pentru curățat legume și fructe",
-    "mdlt_code": "MDLT-0003",
-    "color": "N/A",
-    "simplified_name": "Razatoare 14 Piese",
-    "original_romanian": "Răzătoare multifuncțională pentru legume și fructe , accesorii interschimbabile, gri/verde, 14 buc."
+    "mdlt_code": "MDLT-0061",
+    "color": "Roz",
+    "simplified_name": "Set cana cu incalzire roz",
+    "original_romanian": "Set cana cu incalzire electrica, 250 ml, Suport mentinere temperatura, Roz"
   },
   "1316135298": {
     "item_number": 1316135298,
@@ -223,6 +223,20 @@
     "simplified_name": "Organizator pantofi pliabil",
     "original_romanian": "Suport de încălțăminte pliabil cu 6 rafturi, portabil, multifuncțional, spațios, dulap și raft"
   },
+  "1468464681": {
+    "item_number": 1468464681,
+    "content_id": 1061874244,
+    "barcode": "TYBOP0UVED8C0MPO63",
+    "name_romanian": "Tocător, Feliator Și Răzătoare 15-în-1 Pentru Legume Și Fructe (Varianta Originală)",
+    "name_english": "15-in-1 Vegetable and Fruit Chopper, Slicer and Grater (Original Version)",
+    "brand": "OferteTop",
+    "price": 199,
+    "category": "Ustensile pentru curățat legume și fructe",
+    "mdlt_code": "MDLT-0003",
+    "color": "N/A",
+    "simplified_name": "Razatoare 14 Piese",
+    "original_romanian": "Răzătoare multifuncțională pentru legume și fructe , accesorii interschimbabile, gri/verde, 14 buc."
+  },
   "1397148259": {
     "item_number": 1397148259,
     "content_id": 988473201,
@@ -231,21 +245,11 @@
     "name_english": "Round clothes rack, stainless steel, chrome, 130 cm, 40 kg, on wheels",
     "brand": "ZanaCasei",
     "price": 123,
-    "category": "Cârlig"
-  },
-  "1549112708": {
-    "item_number": 1549112708,
-    "content_id": 1113599488,
-    "barcode": "675121698377",
-    "name_romanian": "Set cana cu incalzire electrica, 250 ml, Suport mentinere temperatura, Roz",
-    "name_english": "Electric heated mug set, 250 ml, Keep warm holder, Pink",
-    "brand": "MODALITE",
-    "price": 69,
-    "category": "Cești de cafea",
-    "mdlt_code": "MDLT-0061",
-    "color": "Roz",
-    "simplified_name": "Set cana cu incalzire roz",
-    "original_romanian": "Set cana cu incalzire electrica, 250 ml, Suport mentinere temperatura, Roz"
+    "category": "Cârlig",
+    "mdlt_code": "MDLT-0060",
+    "color": "AURIU",
+    "simplified_name": "Suport rotativ 40KG Auriu",
+    "original_romanian": "Suport rotund haine, oțel inox, cromat, 130 cm, 40 kg, pe roți"
   },
   "1500965778": {
     "item_number": 1500965778,
@@ -395,21 +399,11 @@
     "name_english": "(6 Tier) Foldable Shoe Rack, Portable Multi-Purpose, Spacious, Foldable Shelf, Snow White Color",
     "brand": "MissClean",
     "price": 149,
-    "category": "Organizator de pantofi"
-  },
-  "1401910088": {
-    "item_number": 1401910088,
-    "content_id": 991790737,
-    "barcode": "PMP7ZBKEP622S4FG99",
-    "name_romanian": "Set de tigăi antiaderente multifuncționale, 5 piese, Migas",
-    "name_english": "Multi-functional Non-stick Pan Set, 5 Pieces, Migas",
-    "brand": "OEM",
-    "price": 199,
-    "category": "Tigăi",
-    "mdlt_code": "MDLT-0024",
+    "category": "Organizator de pantofi",
+    "mdlt_code": "MDLT-0046",
     "color": "N/A",
-    "simplified_name": "Set Tigaie Multifunctionala 5 In 1",
-    "original_romanian": "Friteuză pătrată multifuncțională din cupru pentru cuptor - Migas"
+    "simplified_name": "Organizator pantofi pliabil",
+    "original_romanian": "Suport de încălțăminte pliabil cu 6 rafturi, portabil, multifuncțional, spațios, dulap și raft"
   },
   "1481486634": {
     "item_number": 1481486634,
@@ -425,6 +419,20 @@
     "simplified_name": "Uscător Electric Portabil 10 Kg",
     "original_romanian": "Uscător de rufe electric pliabil portabil, 10 kg, igienizare UV"
   },
+  "1401910088": {
+    "item_number": 1401910088,
+    "content_id": 991790737,
+    "barcode": "PMP7ZBKEP622S4FG99",
+    "name_romanian": "Set de tigăi antiaderente multifuncționale, 5 piese, Migas",
+    "name_english": "Multi-functional Non-stick Pan Set, 5 Pieces, Migas",
+    "brand": "OEM",
+    "price": 199,
+    "category": "Tigăi",
+    "mdlt_code": "MDLT-0024",
+    "color": "N/A",
+    "simplified_name": "Set Tigaie Multifunctionala 5 In 1",
+    "original_romanian": "Friteuză pătrată multifuncțională din cupru pentru cuptor - Migas"
+  },
   "1338410681": {
     "item_number": 1338410681,
     "content_id": 945350342,
@@ -433,17 +441,11 @@
     "name_english": "Teno® 9-in-1 Rotary Electric Toothbrush, 9 replaceable heads, 2 adjustable speeds, LED indicator, white",
     "brand": "Teno",
     "price": 102,
-    "category": "Perii și mături pentru curățenie"
-  },
-  "1428661017": {
-    "item_number": 1428661017,
-    "content_id": 1031351712,
-    "barcode": null,
-    "name_romanian": "Suport de depozitare deasupra toaletei, 3 rafturi, raft pentru mașina de spălat, alb, 160x65x26 cm",
-    "name_english": "Over-toilet storage rack, 3 shelves, washing machine shelf, White, 160x65x26 cm",
-    "brand": "OEM",
-    "price": 110,
-    "category": "Organizator de baie"
+    "category": "Perii și mături pentru curățenie",
+    "mdlt_code": "MDLT-0067",
+    "color": "N/A",
+    "simplified_name": "Perie Electrica Curatat 9in1",
+    "original_romanian": "Perie Electrica Rotativa 9 in 1 Teno®, 9 capete inlocuibile, 2 viteze reglabile, indicator LED, alb"
   },
   "1337368018": {
     "item_number": 1337368018,
@@ -458,6 +460,16 @@
     "color": "N/A",
     "simplified_name": "Irigator Oral Portabil ROZ",
     "original_romanian": "Irigator Bucal Profesional Funcție Masaj"
+  },
+  "1428661017": {
+    "item_number": 1428661017,
+    "content_id": 1031351712,
+    "barcode": null,
+    "name_romanian": "Suport de depozitare deasupra toaletei, 3 rafturi, raft pentru mașina de spălat, alb, 160x65x26 cm",
+    "name_english": "Over-toilet storage rack, 3 shelves, washing machine shelf, White, 160x65x26 cm",
+    "brand": "OEM",
+    "price": 110,
+    "category": "Organizator de baie"
   },
   "1413030633": {
     "item_number": 1413030633,
@@ -497,6 +509,20 @@
     "simplified_name": "Set Mini Oale si Ustensile Bucătărie 13 Piese",
     "original_romanian": "Set de 13 oale și tigăi, longziming, cu capac de sticlă, antiaderent, din fier"
   },
+  "1328824653": {
+    "item_number": 1328824653,
+    "content_id": 939023604,
+    "barcode": "5940616115048",
+    "name_romanian": "Suport organizator pentru oua Macvi®, 4 niveluri, rulare automata, 30 oua, 36x7x20 cm, alb",
+    "name_english": "Macvi® egg organizer, 4 levels, automatic rolling, 30 eggs, 36x7x20 cm, white",
+    "brand": "MACVI",
+    "price": 199,
+    "category": "Organizatoare frigider",
+    "mdlt_code": "MDLT-0049",
+    "color": "ALB",
+    "simplified_name": "Suport oua",
+    "original_romanian": "Suport organizator pentru oua Macvi®, 4 niveluri, rulare automata, 30 oua, 36x7x20 cm, alb"
+  },
   "1334891419": {
     "item_number": 1334891419,
     "content_id": 943022352,
@@ -520,20 +546,6 @@
     "color": "N/A",
     "simplified_name": "Friteuza SilverLove, 8L",
     "original_romanian": "Air Fryer Digital 8L cu Fereastră, Touch LCD, 2400W – Gătire Rapidă și Sănătoasă"
-  },
-  "1328824653": {
-    "item_number": 1328824653,
-    "content_id": 939023604,
-    "barcode": "5940616115048",
-    "name_romanian": "Suport organizator pentru oua Macvi®, 4 niveluri, rulare automata, 30 oua, 36x7x20 cm, alb",
-    "name_english": "Macvi® egg organizer, 4 levels, automatic rolling, 30 eggs, 36x7x20 cm, white",
-    "brand": "MACVI",
-    "price": 199,
-    "category": "Organizatoare frigider",
-    "mdlt_code": "MDLT-0049",
-    "color": "ALB",
-    "simplified_name": "Suport oua",
-    "original_romanian": "Suport organizator pentru oua Macvi®, 4 niveluri, rulare automata, 30 oua, 36x7x20 cm, alb"
   },
   "1338411588": {
     "item_number": 1338411588,
@@ -597,20 +609,6 @@
     "simplified_name": "Tocator electric 3L",
     "original_romanian": "Tocător electric de alimente profesional 1000W, bol din oțel inoxidabil de 3L, 4 lame din oțel inoxidabil, 3 viteze"
   },
-  "1484256490": {
-    "item_number": 1484256490,
-    "content_id": 1074329564,
-    "barcode": null,
-    "name_romanian": "Set 18 Recipiente pentru Condimente cu Suport Rotativ 360° – Organizare Eficientă și Design Modern",
-    "name_english": "Set of 18 Spice Containers with 360° Rotating Stand – Efficient Organization and Modern Design",
-    "brand": "OEM",
-    "price": 84,
-    "category": "Borcane pentru condimente",
-    "mdlt_code": "MDLT-0042",
-    "color": "N/A",
-    "simplified_name": "Set Organizator Condimente cu 18 Borcane",
-    "original_romanian": "Set 18 recipiente pentru condimente cu suport rotativ la 360°, design modern și compact"
-  },
   "1388810209": {
     "item_number": 1388810209,
     "content_id": 982497176,
@@ -624,6 +622,20 @@
     "color": "N/A",
     "simplified_name": "Irigator bucal si oral profesional PPS Pulse® Neo™, 140 PSI, Functie masaj, rotatie 360°, portab",
     "original_romanian": "Irigator bucal si oral profesional PPS Pulse® Neo™, 140 PSI, Functie masaj, rotatie 360°, portab"
+  },
+  "1484256490": {
+    "item_number": 1484256490,
+    "content_id": 1074329564,
+    "barcode": null,
+    "name_romanian": "Set 18 Recipiente pentru Condimente cu Suport Rotativ 360° – Organizare Eficientă și Design Modern",
+    "name_english": "Set of 18 Spice Containers with 360° Rotating Stand – Efficient Organization and Modern Design",
+    "brand": "OEM",
+    "price": 84,
+    "category": "Borcane pentru condimente",
+    "mdlt_code": "MDLT-0042",
+    "color": "N/A",
+    "simplified_name": "Set Organizator Condimente cu 18 Borcane",
+    "original_romanian": "Set 18 recipiente pentru condimente cu suport rotativ la 360°, design modern și compact"
   },
   "1403230779": {
     "item_number": 1403230779,
@@ -639,16 +651,6 @@
     "simplified_name": "Uscator Vertical",
     "original_romanian": "Uscator Vertical pentru Rufe Haine Mobil si Pliabil cu Suport Umerase, Timetrade, Inaltime 175 cm"
   },
-  "1555240045": {
-    "item_number": 1555240045,
-    "content_id": 1117080568,
-    "barcode": null,
-    "name_romanian": "Noptiera inteligenta cu incarcare wireless, LED reglabil, Difuzor bluetooth, 3 sertare, Maro",
-    "name_english": "Smart bedside table with wireless charging, adjustable LED, Bluetooth speaker, 3 drawers, Brown",
-    "brand": "MODALITE",
-    "price": 1073.3,
-    "category": "Noptiere"
-  },
   "1350680473": {
     "item_number": 1350680473,
     "content_id": 954287566,
@@ -662,6 +664,16 @@
     "color": "N/A",
     "simplified_name": "Irigator Oral Portabil ROZ",
     "original_romanian": "Irigator Bucal Profesional Funcție Masaj"
+  },
+  "1555240045": {
+    "item_number": 1555240045,
+    "content_id": 1117080568,
+    "barcode": null,
+    "name_romanian": "Noptiera inteligenta cu incarcare wireless, LED reglabil, Difuzor bluetooth, 3 sertare, Maro",
+    "name_english": "Smart bedside table with wireless charging, adjustable LED, Bluetooth speaker, 3 drawers, Brown",
+    "brand": "MODALITE",
+    "price": 1073.3,
+    "category": "Noptiere"
   },
   "1459605108": {
     "item_number": 1459605108,
@@ -695,7 +707,11 @@
     "name_english": "Plastic table, 3 levels, 4 wheels, Compact design for storage",
     "brand": "MODALITE",
     "price": 99,
-    "category": "Măsuțe"
+    "category": "Măsuțe",
+    "mdlt_code": "MDLT-0072",
+    "color": "Alb",
+    "simplified_name": "Masuta plastic alb",
+    "original_romanian": "Masuta din plastic, 3 niveluri, 4 roti, Design compact pentru depozitare"
   },
   "1554953241": {
     "item_number": 1554953241,
@@ -721,16 +737,6 @@
     "simplified_name": "Suport haine vertical auriu 70KG",
     "original_romanian": "Suport vertical haine, Metalic, Pliabil, 2 bare pentru umerase, Raft inferior, Capacitate 70 kg"
   },
-  "1462464827": {
-    "item_number": 1462464827,
-    "content_id": 1057255629,
-    "barcode": null,
-    "name_romanian": "Set de căni încălzite din ceramică, cu litere aurii, 350 ml, roz",
-    "name_english": "Ceramic heated mug set, gold lettering, 350 ml, Pink",
-    "brand": "ARTC",
-    "price": 99,
-    "category": "Cană"
-  },
   "1566354441": {
     "item_number": 1566354441,
     "content_id": 1123114774,
@@ -740,6 +746,16 @@
     "brand": "MODALITE",
     "price": 120,
     "category": "Mese de cafea"
+  },
+  "1462464827": {
+    "item_number": 1462464827,
+    "content_id": 1057255629,
+    "barcode": null,
+    "name_romanian": "Set de căni încălzite din ceramică, cu litere aurii, 350 ml, roz",
+    "name_english": "Ceramic heated mug set, gold lettering, 350 ml, Pink",
+    "brand": "ARTC",
+    "price": 99,
+    "category": "Cană"
   },
   "1539509314": {
     "item_number": 1539509314,
@@ -771,16 +787,6 @@
     "price": 49,
     "category": "Dozatoare de apă cu pompă"
   },
-  "1549104545": {
-    "item_number": 1549104545,
-    "content_id": 1113592298,
-    "barcode": "675121698414",
-    "name_romanian": "Perie electrica pentru masaj scalp, Vibratii 360°, Lumina LED rosie, 3 moduri, Rosu",
-    "name_english": "Electric scalp massage brush, 360° vibrations, Red LED light, 3 modes, Red",
-    "brand": "MODALITE",
-    "price": 129,
-    "category": "Aparate de masaj"
-  },
   "1512891061": {
     "item_number": 1512891061,
     "content_id": 1092176418,
@@ -794,6 +800,20 @@
     "color": "N/A",
     "simplified_name": "Termos Smart cu LED",
     "original_romanian": "Termos inteligent cu afișaj tactil LED – 500 ml, negru"
+  },
+  "1549104545": {
+    "item_number": 1549104545,
+    "content_id": 1113592298,
+    "barcode": "675121698414",
+    "name_romanian": "Perie electrica pentru masaj scalp, Vibratii 360°, Lumina LED rosie, 3 moduri, Rosu",
+    "name_english": "Electric scalp massage brush, 360° vibrations, Red LED light, 3 modes, Red",
+    "brand": "MODALITE",
+    "price": 129,
+    "category": "Aparate de masaj",
+    "mdlt_code": "MDLT-0071",
+    "color": "rosu",
+    "simplified_name": "Perie masaj cap rosu",
+    "original_romanian": "Perie electrica pentru masaj scalp, Vibratii 360°, Lumina LED rosie, 3 moduri, Rosu"
   },
   "1450214530": {
     "item_number": 1450214530,
@@ -885,15 +905,15 @@
     "simplified_name": "Lampă Noapte cu Proiecții Stele Și Lună",
     "original_romanian": "Lampă de noapte cu proiecții de stele și lună și funcție de rotație"
   },
-  "1554952195": {
-    "item_number": 1554952195,
-    "content_id": 1117003278,
+  "1549070133": {
+    "item_number": 1549070133,
+    "content_id": 1113575446,
     "barcode": null,
-    "name_romanian": "Scrumiera electrica, cu aspiratie, purificator de aer si odorizant pentru eliminarea mirousului, Gri",
-    "name_english": "Electric ashtray, with suction, air purifier and air freshener for odor elimination, Gray",
+    "name_romanian": "Perna ortopedica pentru picioare din spuma cu memorie, Ergonomica pentru genunchi",
+    "name_english": "Orthopedic Memory Foam Foot Pillow, Ergonomic Knee Pillow",
     "brand": "MODALITE",
-    "price": 46,
-    "category": "Scrumiere"
+    "price": 51,
+    "category": "Perne"
   },
   "1442047377": {
     "item_number": 1442047377,
@@ -917,7 +937,11 @@
     "name_english": "Smart Auto Car Perfume Diffuser, 160ml, 4 Spray Levels, USB Charging",
     "brand": "MODALITE",
     "price": 89,
-    "category": "Odorizante auto"
+    "category": "Odorizante auto",
+    "mdlt_code": "MDLT-0070",
+    "color": "N/A",
+    "simplified_name": "Odorizant/Parfum  Auto",
+    "original_romanian": "Difuzor de parfum auto inteligent Auto, 160 ml, 4 niveluri de pulverizare, încărcare USB"
   },
   "1497998994": {
     "item_number": 1497998994,
@@ -947,15 +971,15 @@
     "simplified_name": "Organizator cu Husa",
     "original_romanian": "Suport multifuncțional pentru haine și încălțăminte cu husă anti-praf, 5 rafturi, suport pentru haine, 60×30×171 cm"
   },
-  "1549070133": {
-    "item_number": 1549070133,
-    "content_id": 1113575446,
+  "1554952195": {
+    "item_number": 1554952195,
+    "content_id": 1117003278,
     "barcode": null,
-    "name_romanian": "Perna ortopedica pentru picioare din spuma cu memorie, Ergonomica pentru genunchi",
-    "name_english": "Orthopedic Memory Foam Foot Pillow, Ergonomic Knee Pillow",
+    "name_romanian": "Scrumiera electrica, cu aspiratie, purificator de aer si odorizant pentru eliminarea mirousului, Gri",
+    "name_english": "Electric ashtray, with suction, air purifier and air freshener for odor elimination, Gray",
     "brand": "MODALITE",
-    "price": 51,
-    "category": "Perne"
+    "price": 46,
+    "category": "Scrumiere"
   },
   "1567124798": {
     "item_number": 1567124798,
@@ -980,6 +1004,16 @@
     "color": "N/A",
     "simplified_name": "Boxa tip tarabana",
     "original_romanian": "Boxa portabila tip tarabana, Incarcare solara, Bluetooth, FM, USB, TF Card, 10W"
+  },
+  "1555288876": {
+    "item_number": 1555288876,
+    "content_id": 1117096643,
+    "barcode": null,
+    "name_romanian": "Suport de vase din oțel inoxidabil cu 2 niveluri, Simplu ,Vase, farfurii, Negru",
+    "name_english": "2-Tier Stainless Steel Dish Rack, Simple, Dishes, Plates, Black",
+    "brand": "MODALITE",
+    "price": 110,
+    "category": "Organizatoare de bucătărie"
   },
   "1373293155": {
     "item_number": 1373293155,
@@ -1025,15 +1059,15 @@
     "price": 110,
     "category": "Perii și mături pentru curățenie"
   },
-  "1555215075": {
-    "item_number": 1555215075,
-    "content_id": 1117069663,
+  "1567051271": {
+    "item_number": 1567051271,
+    "content_id": 1123560594,
     "barcode": null,
-    "name_romanian": "Noptiera inteligenta cu incarcare wireless, LED reglabil, Difuzor bluetooth, 3 sertare, Alb",
-    "name_english": "Smart bedside table with wireless charging, adjustable LED, Bluetooth speaker, 3 drawers, White",
+    "name_romanian": "Lampa stradala cu incarcare solara, Telecomanda, Senzor, Iluminat puternic, Rezistenta intemperii",
+    "name_english": "Solar street light, Remote control, Sensor, Bright lighting, Weather resistance",
     "brand": "MODALITE",
-    "price": 1099,
-    "category": "Noptiere"
+    "price": 75,
+    "category": "Iluminat solar"
   },
   "1561561711": {
     "item_number": 1561561711,
@@ -1045,15 +1079,15 @@
     "price": 149,
     "category": "Blender și set de blender"
   },
-  "1567051271": {
-    "item_number": 1567051271,
-    "content_id": 1123560594,
+  "1555215075": {
+    "item_number": 1555215075,
+    "content_id": 1117069663,
     "barcode": null,
-    "name_romanian": "Lampa stradala cu incarcare solara, Telecomanda, Senzor, Iluminat puternic, Rezistenta intemperii",
-    "name_english": "Solar street light, Remote control, Sensor, Bright lighting, Weather resistance",
+    "name_romanian": "Noptiera inteligenta cu incarcare wireless, LED reglabil, Difuzor bluetooth, 3 sertare, Alb",
+    "name_english": "Smart bedside table with wireless charging, adjustable LED, Bluetooth speaker, 3 drawers, White",
     "brand": "MODALITE",
-    "price": 75,
-    "category": "Iluminat solar"
+    "price": 1099,
+    "category": "Noptiere"
   },
   "1566427597": {
     "item_number": 1566427597,
@@ -1133,6 +1167,30 @@
     "price": 99,
     "category": "Cană"
   },
+  "1501098041": {
+    "item_number": 1501098041,
+    "content_id": 1086006385,
+    "barcode": null,
+    "name_romanian": "Uscator Profesional Pentru Rufe, Mobil si Pliabil, cu 3 Nivele de Uscare",
+    "name_english": "Professional Clothes Dryer, Mobile and Foldable, with 3 Drying Levels",
+    "brand": "OEM",
+    "price": 117,
+    "category": "Suporturi pentru rufe",
+    "mdlt_code": "MDLT-0033",
+    "color": "N/A",
+    "simplified_name": "Uscator Vertical",
+    "original_romanian": "Uscator Vertical pentru Rufe Haine Mobil si Pliabil cu Suport Umerase, Timetrade, Inaltime 175 cm"
+  },
+  "1549116237": {
+    "item_number": 1549116237,
+    "content_id": 1113602368,
+    "barcode": null,
+    "name_romanian": "Dispenser automat apa pentru animale 2L, Senzor de miscare, Filtrare 3 straturi",
+    "name_english": "Automatic water dispenser for animals 2L, Motion sensor, 3-layer filtration",
+    "brand": "MODALITE",
+    "price": 88,
+    "category": "Hrană pentru pisici și recipiente pentru apă"
+  },
   "1388809564": {
     "item_number": 1388809564,
     "content_id": 982496746,
@@ -1153,16 +1211,6 @@
     "price": 119,
     "category": "Cuiere"
   },
-  "1549116237": {
-    "item_number": 1549116237,
-    "content_id": 1113602368,
-    "barcode": null,
-    "name_romanian": "Dispenser automat apa pentru animale 2L, Senzor de miscare, Filtrare 3 straturi",
-    "name_english": "Automatic water dispenser for animals 2L, Motion sensor, 3-layer filtration",
-    "brand": "MODALITE",
-    "price": 88,
-    "category": "Hrană pentru pisici și recipiente pentru apă"
-  },
   "1549083345": {
     "item_number": 1549083345,
     "content_id": 1113583045,
@@ -1172,20 +1220,6 @@
     "brand": "MODALITE",
     "price": 54,
     "category": "Fier de călcat cu aburi"
-  },
-  "1501098041": {
-    "item_number": 1501098041,
-    "content_id": 1086006385,
-    "barcode": null,
-    "name_romanian": "Uscator Profesional Pentru Rufe, Mobil si Pliabil, cu 3 Nivele de Uscare",
-    "name_english": "Professional Clothes Dryer, Mobile and Foldable, with 3 Drying Levels",
-    "brand": "OEM",
-    "price": 117,
-    "category": "Suporturi pentru rufe",
-    "mdlt_code": "MDLT-0033",
-    "color": "N/A",
-    "simplified_name": "Uscator Vertical",
-    "original_romanian": "Uscator Vertical pentru Rufe Haine Mobil si Pliabil cu Suport Umerase, Timetrade, Inaltime 175 cm"
   },
   "1549130530": {
     "item_number": 1549130530,
@@ -1223,7 +1257,21 @@
     "name_english": "Electric heated mug set, 250 ml, Keep warm holder, White",
     "brand": "MODALITE",
     "price": 69,
-    "category": "Cești de cafea"
+    "category": "Cești de cafea",
+    "mdlt_code": "MDLT-0068",
+    "color": "Alb",
+    "simplified_name": "Set cana cu incalzire Alba",
+    "original_romanian": "Set cana cu incalzire electrica, 250 ml, Suport mentinere temperatura, Alb"
+  },
+  "1363213405": {
+    "item_number": 1363213405,
+    "content_id": 963215979,
+    "barcode": null,
+    "name_romanian": "Uscător de rufe vertical pliabil SUPER TRENDS®",
+    "name_english": "Foldable Vertical Clothes Dryer SUPER TRENDS®",
+    "brand": "SUPER TRENDS",
+    "price": 111,
+    "category": "Suporturi pentru rufe"
   },
   "1565693616": {
     "item_number": 1565693616,
@@ -1234,16 +1282,6 @@
     "brand": "MODALITE",
     "price": 45,
     "category": "Îngrijire personală"
-  },
-  "1555288876": {
-    "item_number": 1555288876,
-    "content_id": 1117096643,
-    "barcode": null,
-    "name_romanian": "Suport de vase din oțel inoxidabil cu 2 niveluri, Simplu ,Vase, farfurii, Negru",
-    "name_english": "2-Tier Stainless Steel Dish Rack, Simple, Dishes, Plates, Black",
-    "brand": "MODALITE",
-    "price": 110,
-    "category": "Organizatoare de bucătărie"
   },
   "1320055047": {
     "item_number": 1320055047,
@@ -1317,6 +1355,16 @@
     "price": 159,
     "category": "Organizator de pantofi"
   },
+  "1566433970": {
+    "item_number": 1566433970,
+    "content_id": 1123164599,
+    "barcode": null,
+    "name_romanian": "Suport hartie igienica cu raft, Montare dubla, Metal, lemn, Montare usoara, 25x30x12 cm",
+    "name_english": "Toilet paper holder with shelf, Double mounting, Metal, wood, Easy assembly, 25x30x12 cm",
+    "brand": "MODALITE",
+    "price": 90,
+    "category": "Suport de hârtie igienică"
+  },
   "1462805971": {
     "item_number": 1462805971,
     "content_id": 1057452646,
@@ -1330,6 +1378,16 @@
     "color": "N/A",
     "simplified_name": "Suport de vase Cutie Rosie 2 Niveluri",
     "original_romanian": "uport de vase din oțel inoxidabil cu 2 niveluri – Organizator pentru farfurii, boluri și tacâmuri, negru, 40x25x40 cm"
+  },
+  "1566427937": {
+    "item_number": 1566427937,
+    "content_id": 1123161407,
+    "barcode": null,
+    "name_romanian": "Carucior depozitare bucatarie cu blat lemn, 5 polite, 4 roti, Organizator, Dimensiuni 84x40x26 cm",
+    "name_english": "Kitchen storage cart with wooden top, 5 shelves, 4 wheels, Organizer, Dimensions 84x40x26 cm",
+    "brand": "MODALITE",
+    "price": 210,
+    "category": "Organizatoare de bucătărie"
   },
   "1548477381": {
     "item_number": 1548477381,
@@ -1350,16 +1408,6 @@
     "brand": "MODALITE",
     "price": 85,
     "category": "Storcător de fructe și legume"
-  },
-  "1566427937": {
-    "item_number": 1566427937,
-    "content_id": 1123161407,
-    "barcode": null,
-    "name_romanian": "Carucior depozitare bucatarie cu blat lemn, 5 polite, 4 roti, Organizator, Dimensiuni 84x40x26 cm",
-    "name_english": "Kitchen storage cart with wooden top, 5 shelves, 4 wheels, Organizer, Dimensions 84x40x26 cm",
-    "brand": "MODALITE",
-    "price": 210,
-    "category": "Organizatoare de bucătărie"
   },
   "1553866823": {
     "item_number": 1553866823,
@@ -1390,16 +1438,6 @@
     "brand": "OEM",
     "price": 139,
     "category": "Sfori și clești pentru uscarea rufelor"
-  },
-  "1566433970": {
-    "item_number": 1566433970,
-    "content_id": 1123164599,
-    "barcode": null,
-    "name_romanian": "Suport hartie igienica cu raft, Montare dubla, Metal, lemn, Montare usoara, 25x30x12 cm",
-    "name_english": "Toilet paper holder with shelf, Double mounting, Metal, wood, Easy assembly, 25x30x12 cm",
-    "brand": "MODALITE",
-    "price": 90,
-    "category": "Suport de hârtie igienică"
   },
   "1475263779": {
     "item_number": 1475263779,
@@ -1438,16 +1476,6 @@
     "color": "N/A",
     "simplified_name": "Suport Colt/Cuier",
     "original_romanian": "Suport de colt, Tip cuier pentru haine, 4 carlige, Organizator metalic forma L"
-  },
-  "1549101604": {
-    "item_number": 1549101604,
-    "content_id": 1113589812,
-    "barcode": null,
-    "name_romanian": "Perie electrica pentru masaj scalp, Vibratii 360°, Lumina LED rosie, 3 moduri, Negru",
-    "name_english": "Electric scalp massage brush, 360° vibrations, Red LED light, 3 modes, Black",
-    "brand": "MODALITE",
-    "price": 129,
-    "category": "Aparate de masaj"
   },
   "1411238370": {
     "item_number": 1411238370,
@@ -1493,15 +1521,15 @@
     "price": 99,
     "category": "Încărcător auto"
   },
-  "1363213405": {
-    "item_number": 1363213405,
-    "content_id": 963215979,
+  "1549101604": {
+    "item_number": 1549101604,
+    "content_id": 1113589812,
     "barcode": null,
-    "name_romanian": "Uscător de rufe vertical pliabil SUPER TRENDS®",
-    "name_english": "Foldable Vertical Clothes Dryer SUPER TRENDS®",
-    "brand": "SUPER TRENDS",
-    "price": 111,
-    "category": "Suporturi pentru rufe"
+    "name_romanian": "Perie electrica pentru masaj scalp, Vibratii 360°, Lumina LED rosie, 3 moduri, Negru",
+    "name_english": "Electric scalp massage brush, 360° vibrations, Red LED light, 3 modes, Black",
+    "brand": "MODALITE",
+    "price": 129,
+    "category": "Aparate de masaj"
   },
   "1556109679": {
     "item_number": 1556109679,
@@ -1533,16 +1561,6 @@
     "price": 649,
     "category": "Noptiere"
   },
-  "1562798700": {
-    "item_number": 1562798700,
-    "content_id": 1121135106,
-    "barcode": null,
-    "name_romanian": "Raft pentru haine si pantofi 2 in 1, Suport metalic pliabil, Bara umerase, Negru",
-    "name_english": "2 in 1 Clothes and Shoe Rack, Foldable Metal Stand, Hanger Bar, Black",
-    "brand": "MODALITE",
-    "price": 92,
-    "category": "Cuiere"
-  },
   "1451348395": {
     "item_number": 1451348395,
     "content_id": 1048858203,
@@ -1556,6 +1574,16 @@
     "color": "N/A",
     "simplified_name": "Set 12 Recipiente pentru Condimente",
     "original_romanian": "Set de 12 recipiente pentru condimente cu suport rotativ pe 2 niveluri – Organizare elegantă"
+  },
+  "1562798700": {
+    "item_number": 1562798700,
+    "content_id": 1121135106,
+    "barcode": null,
+    "name_romanian": "Raft pentru haine si pantofi 2 in 1, Suport metalic pliabil, Bara umerase, Negru",
+    "name_english": "2 in 1 Clothes and Shoe Rack, Foldable Metal Stand, Hanger Bar, Black",
+    "brand": "MODALITE",
+    "price": 92,
+    "category": "Cuiere"
   },
   "1549090424": {
     "item_number": 1549090424,
@@ -1649,6 +1677,20 @@
     "price": 126,
     "category": "Aparat de călcat vertical"
   },
+  "1453535619": {
+    "item_number": 1453535619,
+    "content_id": 1050641395,
+    "barcode": null,
+    "name_romanian": "Espressor portabil 3 în 1 pentru capsule și cafea măcinată, reîncărcabil USB, 20 bar, 60 ml",
+    "name_english": "Portable 3-in-1 Espresso Machine for Capsules and Ground Coffee, Rechargeable USB, 20 BAR, 60 ml",
+    "brand": "SokShop",
+    "price": 279,
+    "category": "Aparate electrice de măcinat cafea",
+    "mdlt_code": "MDLT-0029",
+    "color": "Negru",
+    "simplified_name": "Espressor portabil Negru",
+    "original_romanian": "Espressor portabil 3 în 1 pentru capsule și cafea măcinată, reîncărcabil USB, 20 bar, 60 ml"
+  },
   "1403231322": {
     "item_number": 1403231322,
     "content_id": 992715388,
@@ -1662,6 +1704,16 @@
     "color": "N/A",
     "simplified_name": "Uscator Vertical",
     "original_romanian": "Uscator Vertical pentru Rufe Haine Mobil si Pliabil cu Suport Umerase, Timetrade, Inaltime 175 cm"
+  },
+  "1551609006": {
+    "item_number": 1551609006,
+    "content_id": 1115084559,
+    "barcode": null,
+    "name_romanian": "Difuzor aromaterapie tip ghiveci 3 in 1, Umidificator Aer, Lumina LED 7 culori, Negru",
+    "name_english": "3 in 1 Aromatherapy Diffuser, Air Humidifier, 7 Color LED Light, Black",
+    "brand": "MODALITE",
+    "price": 130,
+    "category": "Umidificatoare de aer"
   },
   "1403231365": {
     "item_number": 1403231365,
@@ -1687,19 +1739,19 @@
     "price": 599,
     "category": "Noptiere"
   },
-  "1453535619": {
-    "item_number": 1453535619,
-    "content_id": 1050641395,
+  "1453532576": {
+    "item_number": 1453532576,
+    "content_id": 1050640304,
     "barcode": null,
-    "name_romanian": "Espressor portabil 3 în 1 pentru capsule și cafea măcinată, reîncărcabil USB, 20 bar, 60 ml",
-    "name_english": "Portable 3-in-1 Espresso Machine for Capsules and Ground Coffee, Rechargeable USB, 20 BAR, 60 ml",
+    "name_romanian": "Uscător de rufe electric pliabil portabil, 10 kg, igienizare UV",
+    "name_english": "portable Foldable Electric Clothes Dryer, 10 kg, UV Sanitization",
     "brand": "SokShop",
-    "price": 279,
-    "category": "Aparate electrice de măcinat cafea",
-    "mdlt_code": "MDLT-0029",
-    "color": "Negru",
-    "simplified_name": "Espressor portabil Negru",
-    "original_romanian": "Espressor portabil 3 în 1 pentru capsule și cafea măcinată, reîncărcabil USB, 20 bar, 60 ml"
+    "price": 120,
+    "category": "Suporturi pentru rufe",
+    "mdlt_code": "MDLT-0034",
+    "color": "N/A",
+    "simplified_name": "Uscător Electric Portabil 10 Kg",
+    "original_romanian": "Uscător de rufe electric pliabil portabil, 10 kg, igienizare UV"
   },
   "1549120370": {
     "item_number": 1549120370,
@@ -1724,16 +1776,6 @@
     "color": "N/A",
     "simplified_name": "Suport Haine cu Rotite NEGRU",
     "original_romanian": "Suport dublu de umerase pentru haine, din metal 150 x 110 x 54 cm"
-  },
-  "1551609006": {
-    "item_number": 1551609006,
-    "content_id": 1115084559,
-    "barcode": null,
-    "name_romanian": "Difuzor aromaterapie tip ghiveci 3 in 1, Umidificator Aer, Lumina LED 7 culori, Negru",
-    "name_english": "3 in 1 Aromatherapy Diffuser, Air Humidifier, 7 Color LED Light, Black",
-    "brand": "MODALITE",
-    "price": 130,
-    "category": "Umidificatoare de aer"
   },
   "1566119983": {
     "item_number": 1566119983,
@@ -1833,20 +1875,6 @@
     "simplified_name": "Uscator Vertical",
     "original_romanian": "Uscator Vertical pentru Rufe Haine Mobil si Pliabil cu Suport Umerase, Timetrade, Inaltime 175 cm"
   },
-  "1453532576": {
-    "item_number": 1453532576,
-    "content_id": 1050640304,
-    "barcode": null,
-    "name_romanian": "Uscător de rufe electric pliabil portabil, 10 kg, igienizare UV",
-    "name_english": "portable Foldable Electric Clothes Dryer, 10 kg, UV Sanitization",
-    "brand": "SokShop",
-    "price": 120,
-    "category": "Suporturi pentru rufe",
-    "mdlt_code": "MDLT-0034",
-    "color": "N/A",
-    "simplified_name": "Uscător Electric Portabil 10 Kg",
-    "original_romanian": "Uscător de rufe electric pliabil portabil, 10 kg, igienizare UV"
-  },
   "1553868907": {
     "item_number": 1553868907,
     "content_id": 1116303814,
@@ -1929,20 +1957,6 @@
     "simplified_name": "Set Mini Oale si Ustensile Bucătărie 13 Piese",
     "original_romanian": "Set de 13 oale și tigăi, longziming, cu capac de sticlă, antiaderent, din fier"
   },
-  "1549075393": {
-    "item_number": 1549075393,
-    "content_id": 1113578695,
-    "barcode": "675121698308",
-    "name_romanian": "Dulap depozitare baie, Design vertical multifunctional, 2 usi, Rezistent la umezeala",
-    "name_english": "Bathroom storage cabinet, Multifunctional vertical design, 2 doors, Moisture resistant",
-    "brand": "MODALITE",
-    "price": 109,
-    "category": "Organizator de baie",
-    "mdlt_code": "MDLT-0048",
-    "color": "ALB",
-    "simplified_name": "Dulap baie simplu",
-    "original_romanian": "Dulap baie ingust, MDSALE@ suport hartie igienica, 4 niveluri, PVC, 80x15x15 cm, Alb"
-  },
   "1534465907": {
     "item_number": 1534465907,
     "content_id": 1105010033,
@@ -1956,6 +1970,20 @@
     "color": "N/A",
     "simplified_name": "Termos Smart cu LED",
     "original_romanian": "Termos inteligent cu afișaj tactil LED – 500 ml, negru"
+  },
+  "1549075393": {
+    "item_number": 1549075393,
+    "content_id": 1113578695,
+    "barcode": "675121698308",
+    "name_romanian": "Dulap depozitare baie, Design vertical multifunctional, 2 usi, Rezistent la umezeala",
+    "name_english": "Bathroom storage cabinet, Multifunctional vertical design, 2 doors, Moisture resistant",
+    "brand": "MODALITE",
+    "price": 109,
+    "category": "Organizator de baie",
+    "mdlt_code": "MDLT-0048",
+    "color": "ALB",
+    "simplified_name": "Dulap baie simplu",
+    "original_romanian": "Dulap baie ingust, MDSALE@ suport hartie igienica, 4 niveluri, PVC, 80x15x15 cm, Alb"
   },
   "1351682003": {
     "item_number": 1351682003,
@@ -2159,6 +2187,20 @@
     "simplified_name": "Set Mini Karaoke Cu Boxa Bluetooth Si Cu 2",
     "original_romanian": "Microfon karaoke pentru copii, 2 microfoane wireless, portabil cu schimbare de voce și lumini LED, Pi"
   },
+  "1548484993": {
+    "item_number": 1548484993,
+    "content_id": 1113205207,
+    "barcode": "675121698100",
+    "name_romanian": "Jucarie interactiva din plus Elefantul Cucu-Bau, Muzicala, Canta, Vorbeste, Roz",
+    "name_english": "Interactive Plush Toy Cuckoo-Bau Elephant, Musical, Sings, Talks, Pink",
+    "brand": "MODALITE",
+    "price": 85,
+    "category": "Jucărie de pluș",
+    "mdlt_code": "MDLT-0069",
+    "color": "ROZ",
+    "simplified_name": "Jucărie Pluș Elefant Cucu-Bau ROZ",
+    "original_romanian": "Jucarie interactiva din plus Elefantul Cucu-Bau, Muzicala, Canta, Vorbeste, Roz"
+  },
   "1366071741": {
     "item_number": 1366071741,
     "content_id": 965557252,
@@ -2168,16 +2210,6 @@
     "brand": "OEM",
     "price": 82,
     "category": "Jucării pentru copii"
-  },
-  "1548484993": {
-    "item_number": 1548484993,
-    "content_id": 1113205207,
-    "barcode": "675121698100",
-    "name_romanian": "Jucarie interactiva din plus Elefantul Cucu-Bau, Muzicala, Canta, Vorbeste, Roz",
-    "name_english": "Interactive Plush Toy Cuckoo-Bau Elephant, Musical, Sings, Talks, Pink",
-    "brand": "MODALITE",
-    "price": 85,
-    "category": "Jucărie de pluș"
   },
   "1548485302": {
     "item_number": 1548485302,
