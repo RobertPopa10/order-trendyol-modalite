@@ -349,20 +349,6 @@
     "simplified_name": "Raft mobil de depozitare cu 4 niveluri – Alb, 80 x 39 x 12,5 cm",
     "original_romanian": "Raft mobil de depozitare cu 4 niveluri – Alb, 80 x 39 x 12,5 cm"
   },
-  "1404815818": {
-    "item_number": 1404815818,
-    "content_id": 993917353,
-    "barcode": "8346464313",
-    "name_romanian": "Suport de încălțăminte pliabil cu 6 niveluri, portabil, multifuncțional, spațios, raft pliabil, culoare alb-zăpadă",
-    "name_english": "(6 Tier) Foldable Shoe Rack, Portable Multi-Purpose, Spacious, Foldable Shelf, Snow White Color",
-    "brand": "MissClean",
-    "price": 149,
-    "category": "Organizator de pantofi",
-    "mdlt_code": "MDLT-0046",
-    "color": "N/A",
-    "simplified_name": "Organizator pantofi pliabil",
-    "original_romanian": "Suport de încălțăminte pliabil cu 6 rafturi, portabil, multifuncțional, spațios, dulap și raft"
-  },
   "1428661017": {
     "item_number": 1428661017,
     "content_id": 1031351712,
@@ -376,6 +362,20 @@
     "color": "ALBA",
     "simplified_name": "Etajera pentru Masina Spalat Model MARE",
     "original_romanian": "Suport de depozitare deasupra toaletei, 3 rafturi, raft pentru mașina de spălat, alb, 160x65x26 cm"
+  },
+  "1404815818": {
+    "item_number": 1404815818,
+    "content_id": 993917353,
+    "barcode": "8346464313",
+    "name_romanian": "Suport de încălțăminte pliabil cu 6 niveluri, portabil, multifuncțional, spațios, raft pliabil, culoare alb-zăpadă",
+    "name_english": "(6 Tier) Foldable Shoe Rack, Portable Multi-Purpose, Spacious, Foldable Shelf, Snow White Color",
+    "brand": "MissClean",
+    "price": 149,
+    "category": "Organizator de pantofi",
+    "mdlt_code": "MDLT-0046",
+    "color": "N/A",
+    "simplified_name": "Organizator pantofi pliabil",
+    "original_romanian": "Suport de încălțăminte pliabil cu 6 rafturi, portabil, multifuncțional, spațios, dulap și raft"
   },
   "1466756280": {
     "item_number": 1466756280,
@@ -527,6 +527,16 @@
     "simplified_name": "Set Mini Oale si Ustensile Bucătărie 13 Piese",
     "original_romanian": "Set de 13 oale și tigăi, longziming, cu capac de sticlă, antiaderent, din fier"
   },
+  "1334891419": {
+    "item_number": 1334891419,
+    "content_id": 943022352,
+    "barcode": null,
+    "name_romanian": "Perie Electrica Rotativa HOZRO, pentru Curatare Eficienta fara Efort, Multifunctionala fara Fir, Man",
+    "name_english": "HOZRO Electric Rotating Brush, for Efficient Effortless Cleaning, Multifunctional Cordless, Hand",
+    "brand": "HOZRO",
+    "price": 199,
+    "category": "Perii și mături pentru curățenie"
+  },
   "1328824653": {
     "item_number": 1328824653,
     "content_id": 939023604,
@@ -540,16 +550,6 @@
     "color": "ALB",
     "simplified_name": "Suport oua",
     "original_romanian": "Suport organizator pentru oua Macvi®, 4 niveluri, rulare automata, 30 oua, 36x7x20 cm, alb"
-  },
-  "1334891419": {
-    "item_number": 1334891419,
-    "content_id": 943022352,
-    "barcode": null,
-    "name_romanian": "Perie Electrica Rotativa HOZRO, pentru Curatare Eficienta fara Efort, Multifunctionala fara Fir, Man",
-    "name_english": "HOZRO Electric Rotating Brush, for Efficient Effortless Cleaning, Multifunctional Cordless, Hand",
-    "brand": "HOZRO",
-    "price": 199,
-    "category": "Perii și mături pentru curățenie"
   },
   "1481486634": {
     "item_number": 1481486634,
@@ -655,6 +655,16 @@
     "price": 99,
     "category": "Role pentru scame"
   },
+  "1562798700": {
+    "item_number": 1562798700,
+    "content_id": 1121135106,
+    "barcode": null,
+    "name_romanian": "Raft pentru haine si pantofi 2 in 1, Suport metalic pliabil, Bara umerase, Negru",
+    "name_english": "2 in 1 Clothes and Shoe Rack, Foldable Metal Stand, Hanger Bar, Black",
+    "brand": "MODALITE",
+    "price": 92,
+    "category": "Cuiere"
+  },
   "1340788944": {
     "item_number": 1340788944,
     "content_id": 946964707,
@@ -722,16 +732,6 @@
     "brand": "MODALITE",
     "price": 110,
     "category": "Organizator de baie"
-  },
-  "1562798700": {
-    "item_number": 1562798700,
-    "content_id": 1121135106,
-    "barcode": null,
-    "name_romanian": "Raft pentru haine si pantofi 2 in 1, Suport metalic pliabil, Bara umerase, Negru",
-    "name_english": "2 in 1 Clothes and Shoe Rack, Foldable Metal Stand, Hanger Bar, Black",
-    "brand": "MODALITE",
-    "price": 92,
-    "category": "Cuiere"
   },
   "1537599558": {
     "item_number": 1537599558,
@@ -1087,15 +1087,15 @@
     "price": 99,
     "category": "Iluminat solar"
   },
-  "1555224616": {
-    "item_number": 1555224616,
-    "content_id": 1117072618,
+  "1555288876": {
+    "item_number": 1555288876,
+    "content_id": 1117096643,
     "barcode": null,
-    "name_romanian": "Noptiera inteligenta cu incarcare wireless, LED reglabil, Difuzor bluetooth, 3 sertare, Gri inchis",
-    "name_english": "Smart bedside table with wireless charging, adjustable LED, Bluetooth speaker, 3 drawers, Dark gray",
+    "name_romanian": "Suport de vase din oțel inoxidabil cu 2 niveluri, Simplu ,Vase, farfurii, Negru",
+    "name_english": "2-Tier Stainless Steel Dish Rack, Simple, Dishes, Plates, Black",
     "brand": "MODALITE",
-    "price": 1072.23,
-    "category": "Noptiere"
+    "price": 110,
+    "category": "Organizatoare de bucătărie"
   },
   "1403231322": {
     "item_number": 1403231322,
@@ -1111,29 +1111,15 @@
     "simplified_name": "Uscator Vertical",
     "original_romanian": "Uscator Vertical pentru Rufe Haine Mobil si Pliabil cu Suport Umerase, Timetrade, Inaltime 175 cm"
   },
-  "1555288876": {
-    "item_number": 1555288876,
-    "content_id": 1117096643,
+  "1555224616": {
+    "item_number": 1555224616,
+    "content_id": 1117072618,
     "barcode": null,
-    "name_romanian": "Suport de vase din oțel inoxidabil cu 2 niveluri, Simplu ,Vase, farfurii, Negru",
-    "name_english": "2-Tier Stainless Steel Dish Rack, Simple, Dishes, Plates, Black",
+    "name_romanian": "Noptiera inteligenta cu incarcare wireless, LED reglabil, Difuzor bluetooth, 3 sertare, Gri inchis",
+    "name_english": "Smart bedside table with wireless charging, adjustable LED, Bluetooth speaker, 3 drawers, Dark gray",
     "brand": "MODALITE",
-    "price": 110,
-    "category": "Organizatoare de bucătărie"
-  },
-  "1411238370": {
-    "item_number": 1411238370,
-    "content_id": 1016316149,
-    "barcode": null,
-    "name_romanian": "Set 18 recipiente pentru condimente cu suport rotativ la 360°, design modern și compact",
-    "name_english": "Set 18 spice containers with 360° rotating stand, modern and compact design",
-    "brand": "LEVCO",
-    "price": 110,
-    "category": "Borcane pentru condimente",
-    "mdlt_code": "MDLT-0042",
-    "color": "N/A",
-    "simplified_name": "Set Organizator Condimente cu 18 Borcane",
-    "original_romanian": "Set 18 recipiente pentru condimente cu suport rotativ la 360°, design modern și compact"
+    "price": 1072.23,
+    "category": "Noptiere"
   },
   "1561561711": {
     "item_number": 1561561711,
@@ -1154,6 +1140,30 @@
     "brand": "MODALITE",
     "price": 51,
     "category": "Perne"
+  },
+  "1411238370": {
+    "item_number": 1411238370,
+    "content_id": 1016316149,
+    "barcode": null,
+    "name_romanian": "Set 18 recipiente pentru condimente cu suport rotativ la 360°, design modern și compact",
+    "name_english": "Set 18 spice containers with 360° rotating stand, modern and compact design",
+    "brand": "LEVCO",
+    "price": 110,
+    "category": "Borcane pentru condimente",
+    "mdlt_code": "MDLT-0042",
+    "color": "N/A",
+    "simplified_name": "Set Organizator Condimente cu 18 Borcane",
+    "original_romanian": "Set 18 recipiente pentru condimente cu suport rotativ la 360°, design modern și compact"
+  },
+  "1551602424": {
+    "item_number": 1551602424,
+    "content_id": 1115080388,
+    "barcode": null,
+    "name_romanian": "Mini tocător electric, 500 ml, multifuncțional, reîncărcabil, verde",
+    "name_english": "Mini electric chopper, 500 ml, multifunctional, rechargeable, green",
+    "brand": "MODALITE",
+    "price": 80,
+    "category": "Tocătoare și mărunțitoare"
   },
   "1464704913": {
     "item_number": 1464704913,
@@ -1179,16 +1189,6 @@
     "price": 649,
     "category": "Noptiere"
   },
-  "1551602424": {
-    "item_number": 1551602424,
-    "content_id": 1115080388,
-    "barcode": null,
-    "name_romanian": "Mini tocător electric, 500 ml, multifuncțional, reîncărcabil, verde",
-    "name_english": "Mini electric chopper, 500 ml, multifunctional, rechargeable, green",
-    "brand": "MODALITE",
-    "price": 80,
-    "category": "Tocătoare și mărunțitoare"
-  },
   "1567051271": {
     "item_number": 1567051271,
     "content_id": 1123560594,
@@ -1209,15 +1209,19 @@
     "price": 88,
     "category": "Hrană pentru pisici și recipiente pentru apă"
   },
-  "1549073246": {
-    "item_number": 1549073246,
-    "content_id": 1113576920,
+  "1320055047": {
+    "item_number": 1320055047,
+    "content_id": 933182592,
     "barcode": null,
-    "name_romanian": "Suport dublu haine metalic, 2 rafturi, Bara dubla, Capacitate 50 kg, 148x50,5x109 cm, Alb",
-    "name_english": "Double metal clothes rack, 2 shelves, Double bar, Capacity 50 kg, 148x50.5x109 cm, White",
-    "brand": "MODALITE",
-    "price": 149,
-    "category": "Cuiere"
+    "name_romanian": "Set Friteuza Cu Aer Cald , Gatire Fara Ulei, Air Fryer",
+    "name_english": "Hot Air Fryer Set, Cooking Without Oil, Air Fryer",
+    "brand": "NEXTLY",
+    "price": 140,
+    "category": "Friteuze cu aer cald și friteuze deep fryer",
+    "mdlt_code": "MDLT-0026",
+    "color": "N/A",
+    "simplified_name": "Set Friteuza Cu Aer Cald , Gatire Fara Ulei, Air Fryer",
+    "original_romanian": "Set Friteuza Cu Aer Cald , Gatire Fara Ulei, Air Fryer"
   },
   "1462891645": {
     "item_number": 1462891645,
@@ -1232,20 +1236,6 @@
     "color": "N/A",
     "simplified_name": "Uscator de vase pliabil eBA® XXL, 3 niveluri, negru – suport compact cu tavi de scurgere, ideal p",
     "original_romanian": "Uscator de vase pliabil eBA® XXL, 3 niveluri, negru – suport compact cu tavi de scurgere, ideal p"
-  },
-  "1320055047": {
-    "item_number": 1320055047,
-    "content_id": 933182592,
-    "barcode": null,
-    "name_romanian": "Set Friteuza Cu Aer Cald , Gatire Fara Ulei, Air Fryer",
-    "name_english": "Hot Air Fryer Set, Cooking Without Oil, Air Fryer",
-    "brand": "NEXTLY",
-    "price": 140,
-    "category": "Friteuze cu aer cald și friteuze deep fryer",
-    "mdlt_code": "MDLT-0026",
-    "color": "N/A",
-    "simplified_name": "Set Friteuza Cu Aer Cald , Gatire Fara Ulei, Air Fryer",
-    "original_romanian": "Set Friteuza Cu Aer Cald , Gatire Fara Ulei, Air Fryer"
   },
   "1554073092": {
     "item_number": 1554073092,
@@ -1297,6 +1287,16 @@
     "barcode": null,
     "name_romanian": "Suport metalic dublu pentru haine, 2 bare, 2 rafturi, Capacitate 48 kg, 110x57x150, Negru",
     "name_english": "Double metal clothes rack, 2 bars, 2 shelves, Capacity 48 kg, 110x57x150, Black",
+    "brand": "MODALITE",
+    "price": 149,
+    "category": "Cuiere"
+  },
+  "1549073246": {
+    "item_number": 1549073246,
+    "content_id": 1113576920,
+    "barcode": null,
+    "name_romanian": "Suport dublu haine metalic, 2 rafturi, Bara dubla, Capacitate 50 kg, 148x50,5x109 cm, Alb",
+    "name_english": "Double metal clothes rack, 2 shelves, Double bar, Capacity 50 kg, 148x50.5x109 cm, White",
     "brand": "MODALITE",
     "price": 149,
     "category": "Cuiere"
@@ -1393,16 +1393,6 @@
     "price": 129,
     "category": "Organizatoare de bucătărie"
   },
-  "1566433970": {
-    "item_number": 1566433970,
-    "content_id": 1123164599,
-    "barcode": null,
-    "name_romanian": "Suport hartie igienica cu raft, Montare dubla, Metal, lemn, Montare usoara, 25x30x12 cm",
-    "name_english": "Toilet paper holder with shelf, Double mounting, Metal, wood, Easy assembly, 25x30x12 cm",
-    "brand": "MODALITE",
-    "price": 90,
-    "category": "Suport de hârtie igienică"
-  },
   "1556110942": {
     "item_number": 1556110942,
     "content_id": 1117402007,
@@ -1427,6 +1417,16 @@
     "simplified_name": "Difuzor aromaterapia 3D",
     "original_romanian": "Difuzor aromaterapie 3D, Ultrasunete, Umidificator 500 ml, LED 7 culori, Telecomanda, Maro inchis"
   },
+  "1566433970": {
+    "item_number": 1566433970,
+    "content_id": 1123164599,
+    "barcode": null,
+    "name_romanian": "Suport hartie igienica cu raft, Montare dubla, Metal, lemn, Montare usoara, 25x30x12 cm",
+    "name_english": "Toilet paper holder with shelf, Double mounting, Metal, wood, Easy assembly, 25x30x12 cm",
+    "brand": "MODALITE",
+    "price": 90,
+    "category": "Suport de hârtie igienică"
+  },
   "1566197852": {
     "item_number": 1566197852,
     "content_id": 1123017124,
@@ -1446,16 +1446,6 @@
     "brand": "MODALITE",
     "price": 129,
     "category": "Aparate de masaj"
-  },
-  "1553875390": {
-    "item_number": 1553875390,
-    "content_id": 1116307490,
-    "barcode": null,
-    "name_romanian": "Incarcator auto inteligent 4 in 1, Fast charge 66W, Cabluri retractabile, Lumina LED ambientala",
-    "name_english": "4 in 1 smart car charger, Fast charge 66W, Retractable cables, Ambient LED light",
-    "brand": "MODALITE",
-    "price": 99,
-    "category": "Încărcător auto"
   },
   "1566427937": {
     "item_number": 1566427937,
@@ -1497,16 +1487,6 @@
     "price": 119,
     "category": "Suport de hârtie igienică"
   },
-  "1363213405": {
-    "item_number": 1363213405,
-    "content_id": 963215979,
-    "barcode": null,
-    "name_romanian": "Uscător de rufe vertical pliabil SUPER TRENDS®",
-    "name_english": "Foldable Vertical Clothes Dryer SUPER TRENDS®",
-    "brand": "SUPER TRENDS",
-    "price": 111,
-    "category": "Suporturi pentru rufe"
-  },
   "1551609006": {
     "item_number": 1551609006,
     "content_id": 1115084559,
@@ -1540,6 +1520,26 @@
     "brand": "MODALITE",
     "price": 75,
     "category": "Seturi pentru întreținerea mașinii"
+  },
+  "1363213405": {
+    "item_number": 1363213405,
+    "content_id": 963215979,
+    "barcode": null,
+    "name_romanian": "Uscător de rufe vertical pliabil SUPER TRENDS®",
+    "name_english": "Foldable Vertical Clothes Dryer SUPER TRENDS®",
+    "brand": "SUPER TRENDS",
+    "price": 111,
+    "category": "Suporturi pentru rufe"
+  },
+  "1553875390": {
+    "item_number": 1553875390,
+    "content_id": 1116307490,
+    "barcode": null,
+    "name_romanian": "Incarcator auto inteligent 4 in 1, Fast charge 66W, Cabluri retractabile, Lumina LED ambientala",
+    "name_english": "4 in 1 smart car charger, Fast charge 66W, Retractable cables, Ambient LED light",
+    "brand": "MODALITE",
+    "price": 99,
+    "category": "Încărcător auto"
   },
   "1549083345": {
     "item_number": 1549083345,
@@ -1731,14 +1731,14 @@
     "price": 130,
     "category": "Umidificatoare de aer"
   },
-  "1555243269": {
-    "item_number": 1555243269,
-    "content_id": 1117081698,
+  "1553870465": {
+    "item_number": 1553870465,
+    "content_id": 1116305056,
     "barcode": null,
-    "name_romanian": "Noptiera multifuncționala, Iluminare LED, Tactila, Incarcare wireless si USB, bluetooth, Gri inchis",
-    "name_english": "Multifunctional bedside table, LED lighting, Touch, Wireless and USB charging, Bluetooth, Dark gray",
+    "name_romanian": "Noptiera inteligenta, Multifunctionala cu LED, Incarcare wireless, Bluetooth, 3 sertare, Gri deschis",
+    "name_english": "Smart bedside table, Multifunctional with LED, Wireless charging, Bluetooth, 3 drawers, Light gray",
     "brand": "MODALITE",
-    "price": 599,
+    "price": 1099,
     "category": "Noptiere"
   },
   "1549107140": {
@@ -1764,6 +1764,16 @@
     "color": "N/A",
     "simplified_name": "Suport Haine cu Rotite NEGRU",
     "original_romanian": "Suport dublu de umerase pentru haine, din metal 150 x 110 x 54 cm"
+  },
+  "1555243269": {
+    "item_number": 1555243269,
+    "content_id": 1117081698,
+    "barcode": null,
+    "name_romanian": "Noptiera multifuncționala, Iluminare LED, Tactila, Incarcare wireless si USB, bluetooth, Gri inchis",
+    "name_english": "Multifunctional bedside table, LED lighting, Touch, Wireless and USB charging, Bluetooth, Dark gray",
+    "brand": "MODALITE",
+    "price": 599,
+    "category": "Noptiere"
   },
   "1555236996": {
     "item_number": 1555236996,
@@ -1813,16 +1823,6 @@
     "simplified_name": "Uscator Vertical",
     "original_romanian": "Uscator Vertical pentru Rufe Haine Mobil si Pliabil cu Suport Umerase, Timetrade, Inaltime 175 cm"
   },
-  "1553870465": {
-    "item_number": 1553870465,
-    "content_id": 1116305056,
-    "barcode": null,
-    "name_romanian": "Noptiera inteligenta, Multifunctionala cu LED, Incarcare wireless, Bluetooth, 3 sertare, Gri deschis",
-    "name_english": "Smart bedside table, Multifunctional with LED, Wireless charging, Bluetooth, 3 drawers, Light gray",
-    "brand": "MODALITE",
-    "price": 1099,
-    "category": "Noptiere"
-  },
   "1549120370": {
     "item_number": 1549120370,
     "content_id": 1113606273,
@@ -1832,16 +1832,6 @@
     "brand": "MODALITE",
     "price": 70,
     "category": "Ghivece"
-  },
-  "1553854444": {
-    "item_number": 1553854444,
-    "content_id": 1116294973,
-    "barcode": null,
-    "name_romanian": "Noptiera inteligenta, Multifunctionala cu LED, Incarcare wireless, Bluetooth, 3 sertare, Alb murdar",
-    "name_english": "Smart bedside table, Multifunctional with LED, Wireless charging, Bluetooth, 3 drawers, Off-white",
-    "brand": "MODALITE",
-    "price": 1099,
-    "category": "Noptiere"
   },
   "1453535619": {
     "item_number": 1453535619,
@@ -1856,6 +1846,16 @@
     "color": "Negru",
     "simplified_name": "Espressor portabil Negru",
     "original_romanian": "Espressor portabil 3 în 1 pentru capsule și cafea măcinată, reîncărcabil USB, 20 bar, 60 ml"
+  },
+  "1553854444": {
+    "item_number": 1553854444,
+    "content_id": 1116294973,
+    "barcode": null,
+    "name_romanian": "Noptiera inteligenta, Multifunctionala cu LED, Incarcare wireless, Bluetooth, 3 sertare, Alb murdar",
+    "name_english": "Smart bedside table, Multifunctional with LED, Wireless charging, Bluetooth, 3 drawers, Off-white",
+    "brand": "MODALITE",
+    "price": 1099,
+    "category": "Noptiere"
   },
   "1403231365": {
     "item_number": 1403231365,
@@ -2055,20 +2055,6 @@
     "price": 78.9,
     "category": "Organizator de baie"
   },
-  "1460830201": {
-    "item_number": 1460830201,
-    "content_id": 1056155446,
-    "barcode": "PMPNTIZPAMBI4CLP79",
-    "name_romanian": "Set de 12 recipiente pentru condimente cu suport rotativ pe 2 niveluri – Organizare elegantă",
-    "name_english": "Set of 12 Spice Containers with 2-Tier Rotating Stand – Elegant Organization",
-    "brand": "OEM",
-    "price": 101.11,
-    "category": "Borcane pentru condimente",
-    "mdlt_code": "MDLT-0045",
-    "color": "N/A",
-    "simplified_name": "Set 12 Recipiente pentru Condimente",
-    "original_romanian": "Set de 12 recipiente pentru condimente cu suport rotativ pe 2 niveluri – Organizare elegantă"
-  },
   "1549130530": {
     "item_number": 1549130530,
     "content_id": 1113613478,
@@ -2082,6 +2068,20 @@
     "color": "AURIU",
     "simplified_name": "Cuier de colt suport haine AURIU",
     "original_romanian": "Cuier de colt cu roti, Metalic, Suport haine multifunctional, 40x40x160 cm, Auriu"
+  },
+  "1460830201": {
+    "item_number": 1460830201,
+    "content_id": 1056155446,
+    "barcode": "PMPNTIZPAMBI4CLP79",
+    "name_romanian": "Set de 12 recipiente pentru condimente cu suport rotativ pe 2 niveluri – Organizare elegantă",
+    "name_english": "Set of 12 Spice Containers with 2-Tier Rotating Stand – Elegant Organization",
+    "brand": "OEM",
+    "price": 101.11,
+    "category": "Borcane pentru condimente",
+    "mdlt_code": "MDLT-0045",
+    "color": "N/A",
+    "simplified_name": "Set 12 Recipiente pentru Condimente",
+    "original_romanian": "Set de 12 recipiente pentru condimente cu suport rotativ pe 2 niveluri – Organizare elegantă"
   },
   "1388020106": {
     "item_number": 1388020106,
