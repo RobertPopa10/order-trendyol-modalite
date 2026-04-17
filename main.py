@@ -375,6 +375,10 @@ class ExcelGeneratorService:
             if not self.update_product_data():
                 self.logger.error("❌ Failed to update product data - aborting processing")
                 return False
+            # Reload the translator's in-memory mapping so it picks up changes
+            # written to disk by the scraper/barcode-updater subprocesses
+            self.processor.translator.reload_mapping()
+            self.logger.info("🔄 Product translator mapping reloaded")
         else:
             self.logger.info("⏭️ Skipping prerequisites (product data update)")
         

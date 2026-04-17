@@ -2507,6 +2507,16 @@
     "price": 499,
     "category": "Iluminat solar"
   },
+  "1579634591": {
+    "item_number": 1579634591,
+    "content_id": 1130779382,
+    "barcode": null,
+    "name_romanian": "Proiector LED cu incarcare solarae 300W, Telecomanda, IP67, Iluminare puternica, Panou solar inclus",
+    "name_english": "Solar-powered LED floodlight 300W, Remote control, IP67, Powerful lighting, Solar panel included",
+    "brand": "MODALITE",
+    "price": 299,
+    "category": "Iluminat solar"
+  },
   "1579654820": {
     "item_number": 1579654820,
     "content_id": 1130794299,
@@ -2527,16 +2537,6 @@
     "price": 299,
     "category": "Iluminat solar"
   },
-  "1579634591": {
-    "item_number": 1579634591,
-    "content_id": 1130779382,
-    "barcode": null,
-    "name_romanian": "Proiector LED cu incarcare solarae 300W, Telecomanda, IP67, Iluminare puternica, Panou solar inclus",
-    "name_english": "Solar-powered LED floodlight 300W, Remote control, IP67, Powerful lighting, Solar panel included",
-    "brand": "MODALITE",
-    "price": 299,
-    "category": "Iluminat solar"
-  },
   "1566166653": {
     "item_number": 1566166653,
     "content_id": 1122996754,
@@ -2546,6 +2546,16 @@
     "brand": "MODALITE",
     "price": 199,
     "category": "Iluminat solar"
+  },
+  "1583197072": {
+    "item_number": 1583197072,
+    "content_id": 1133185864,
+    "barcode": null,
+    "name_romanian": "Cuier haine cu suport pantofi 5 rafturi, Design modern, Organizator multifunctional pentru hol",
+    "name_english": "Clothes hanger with shoe rack 5 shelves, Modern design, Multifunctional organizer for the hallway",
+    "brand": "MODALITE",
+    "price": 199,
+    "category": "Cuiere"
   },
   "1553854444": {
     "item_number": 1553854444,
@@ -2566,16 +2576,6 @@
     "brand": "MODALITE",
     "price": 199,
     "category": "Măsuțe"
-  },
-  "1583197072": {
-    "item_number": 1583197072,
-    "content_id": 1133185864,
-    "barcode": null,
-    "name_romanian": "Cuier haine cu suport pantofi 5 rafturi, Design modern, Organizator multifunctional pentru hol",
-    "name_english": "Clothes hanger with shoe rack 5 shelves, Modern design, Multifunctional organizer for the hallway",
-    "brand": "MODALITE",
-    "price": 199,
-    "category": "Cuiere"
   },
   "1566119983": {
     "item_number": 1566119983,
@@ -2771,10 +2771,13 @@
   "1539509314": {
     "item_number": 1539509314,
     "barcode": "PKEF1503EF8873",
-    "name_romanian": "",
+    "name_romanian": "Cuier de colt cu roti, Metalic, Suport haine multifunctional, 40x40x160 cm, Auriu",
     "name_english": "",
     "brand": "",
     "price": 0,
-    "category": ""
+    "category": "",
+    "mdlt_code": "MDLT-0047",
+    "simplified_name": "Cuier de colt suport haine AURIU",
+    "color": "AURIU"
   }
 }
